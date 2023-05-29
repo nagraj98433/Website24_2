@@ -1,0 +1,53 @@
+.image_container_second_banner {
+  position: relative;
+}
+
+.image_container_second_banner img {
+  width: 100%;
+}
+
+.overlay_Banner_second {
+  position: absolute;
+  top: -1px;
+  right: 197px;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  width: 17%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay_Banner_second_content {
+  position: absolute;
+  top: 49px;
+  left: 110px;
+  width: 45%;
+  height: 68%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #fff;
+}
+
+.Banner_second_heading {
+  font-family: Source Serif Pro;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #E6F1F9;
+}
+
+.Banner_second_description {
+  font-family: Source Sans Pro;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #B0D3ED;
+}

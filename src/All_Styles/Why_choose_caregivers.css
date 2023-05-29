@@ -1,0 +1,52 @@
+.Why_choose_caregivers__content_container{
+  background-color: #E6F1F9;  
+  border-radius: 25px;
+  padding: 70px 117px 82px 51px;
+}
+
+.Why_choose_caregivers__content_heading {
+    font-family: Source Serif Pro;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0C2F62;
+}
+
+.Why_choose_caregivers__Description {
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #565656;
+}
+
+
+.Why_choose_caregivers__content_container2{
+    background-color: #f9f9f9;  
+    border-radius: 25px;
+    padding: 70px 285px 70px 50px;
+  }
+  
+  .Why_choose_caregivers__content_heading2 {
+      font-family: Source Serif Pro;
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 45px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #0C2F62;
+  }
+  
+  .Why_choose_caregivers__Description2 {
+      font-family: Source Sans Pro;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #565656;
+  }

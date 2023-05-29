@@ -1,0 +1,121 @@
+.Hear_what {
+    font-family: Source Serif Pro;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #0C2F62;
+}
+
+.Real_stories {
+    font-family: Source Sans Pro;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #4F5059;
+}
+
+.grid-container_clients_have_to_say {
+    display: grid;
+    grid-template-columns: 380px 380px 380px;
+    /* background-color: #2196F3; */
+}
+
+.grid-item_clients_have_to_say {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    /* padding: 20px; */
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.image-container_clients_have_to_say {
+    position: relative;
+    width: 380px;
+    height: 460px;
+}
+
+.overlay_clients_have_to_say {
+    position: absolute;
+    top: 51px;
+    left: 0;
+    width: 100%;
+    height: 57%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.clients_have_to_say_content {
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #041022;
+    width: 18rem;
+}
+
+.overlay_clients_have_to_say_img {
+    position: absolute;
+    top: 331px;
+    left: 7px;
+    width: 24%;
+    height: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay_clients_have_to_say_icon {
+    position: absolute;
+    top: 10px;
+    left: 14px;
+    width: 24%;
+    height: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay_clients_have_to_say_name {
+    position: absolute;
+    bottom: 31px;
+    left: 129px;
+    width: 51%;
+    height: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.client_name {
+    font-family: Source Serif Pro;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #A080C1;
+}
+
+.client_location {
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #565656;
+
+}

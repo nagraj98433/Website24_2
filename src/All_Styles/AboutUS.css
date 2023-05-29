@@ -1,0 +1,138 @@
+.aboutUs_caregiver_container {
+  display: flex;
+  background: white;
+  border-radius: 25px;
+}
+
+.caregiver_aboutUs_container {
+  flex: 1;
+  /* background-color: #f0f0f0; */
+}
+
+.aboutUs_caregiver_overlay_container {
+  flex: 1;
+  /* background-color: #e0e0e0; */
+}
+
+.aboutUs_content {
+  font-family: Source Serif Pro;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0C2F62;
+  padding: 13px 59px 19px 59px;
+}
+
+.aboutUs_discription {
+  /* height: 420px; */
+  width: 516px;
+  left: 120px;
+  top: 181px;
+  color: #565656;
+  padding: 0 4px 0 51px;
+}
+
+.aboutUs_discription1 {
+  /* height: 420px; */
+  width: 516px;
+  left: 120px;
+  top: 181px;
+  color: #565656;
+  padding: 0 4px 0 51px;
+}
+
+.image_container_aboutUs {
+  position: relative;
+}
+
+.overlay_aboutUs1 {
+  position: absolute;
+  top: 23px;
+  left: 0px;
+  width: 20.4%;
+  height: 16%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF5EC;
+  border-radius: 30px;
+}
+
+
+.overlay_aboutUs2 {
+  position: absolute;
+  top: 23px;
+  left: 146px;
+  width: 20.4%;
+  height: 16%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F8F3FF;
+  border-radius: 30px;
+}
+
+
+.overlay_aboutUs3 {
+  position: absolute;
+  top: 23px;
+  left: 291px;
+  width: 20.4%;
+  height: 16%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ECF9FF;
+  border-radius: 30px;
+}
+
+
+.aboutUS_img {
+  padding: 13px 0;
+}
+
+.AboutUs_years,
+.AboutUs_icon {
+  font-family: Source Serif Pro;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #AD6800;
+}
+
+.AboutUs_Exp, .AboutUs_Exp2, .AboutUs_Exp3 {
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #626262;
+}
+
+.AboutUs_years2, .AboutUs_icon2{
+  font-family: Source Serif Pro;
+font-size: 30px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0.05em;
+text-align: left;
+color:#4C007B;
+}
+
+.AboutUs_years3, .AboutUs_icon3{
+  font-family: Source Serif Pro;
+font-size: 30px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0.05em;
+text-align: left;
+color: #002A7B;
+}

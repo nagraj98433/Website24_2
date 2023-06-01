@@ -14,16 +14,33 @@ const Best_Caregivers_Services = () => {
   return (
     <>
       <div className="Max_width80 mt-4">
-        <div className="Best_caregiver_img_container">
-          <div className="Best_caregiver_container">
-            <div className="Best_care">Best Caregiver Services in <br /><span className="Best_care_part">Powai, Mumbai</span></div>
-            <div className="caregiver_description mt-3">At Care24, we understand that finding quality caregiver services can be a difficult and stressful process. That's why we are committed to providing the best caregiver services in Powai, Mumbai to ensure your loved one receives the highest level of care possible.
+
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col col-sm-6 col-md-6 col-lg-6 col-xl-6 stack_on_xm">
+              <div className="Best_caregiver_container">
+                <div className="Best_care">Best Caregiver Services in <br /><span className="Best_care_part">Powai, Mumbai</span></div>
+                <div className="caregiver_description">At Care24, we understand that finding quality caregiver services can be a difficult and stressful process. That's why we are committed to providing the best caregiver services in Powai, Mumbai to ensure your loved one receives the highest level of care possible.
+                </div>
+              </div>
+            </div>
+            <div className="col col-sm-6 col-md-6 col-lg-6 col-xl-6">
+
+              <div className="Best_caregiver_img_container">
+                <img src={care3} alt="care3_img" />
+              </div>
+
             </div>
           </div>
-          <div className="Best_caregiver_img_container">
-            <img src={care3} alt="care3_img" />
-          </div>
         </div>
+
+
+
+
+
+
+
+
 
       </div>
     </>

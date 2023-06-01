@@ -7,3 +7,155 @@
     text-align: left;
     color: #0072C6;
 }
+
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+    font-size: 26px;
+    color: #565656;
+    text-align: left;
+    background-color: var(--bs-accordion-btn-bg);
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: var(--bs-accordion-transition);
+    font-family: Source Sans Pro;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.accordion-body {
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #565656;
+
+}
+
+.accordion-item {
+    color: var(--bs-accordion-color);
+    background-color: var(--bs-accordion-bg);
+    border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);
+    margin-bottom: 25px;
+}
+
+
+/* Media queries start */
+
+@media screen and (min-width:300px) and (max-width:576px) {
+    .frequently_content {
+        font-family: Source Serif Pro;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 50px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #0072C6;
+    }
+
+
+    .accordion-button {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+        font-size: 16px;
+        color: #565656;
+        text-align: left;
+        background-color: var(--bs-accordion-btn-bg);
+        border: 0;
+        border-radius: 0;
+        overflow-anchor: none;
+        transition: var(--bs-accordion-transition);
+        font-family: Source Sans Pro;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .accordion-body {
+        font-family: Source Sans Pro;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #565656;
+
+    }
+
+    .accordion-item {
+        color: var(--bs-accordion-color);
+        background-color: var(--bs-accordion-bg);
+        border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);
+        margin-bottom: 25px;
+    }
+}
+
+
+@media screen and (min-width:576px) and (max-width:768px) {
+    .frequently_content {
+        font-family: Source Serif Pro;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 50px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #0072C6;
+    }
+
+
+    .accordion-button {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+        font-size: 18px;
+        color: #565656;
+        text-align: left;
+        background-color: var(--bs-accordion-btn-bg);
+        border: 0;
+        border-radius: 0;
+        overflow-anchor: none;
+        transition: var(--bs-accordion-transition);
+        font-family: Source Sans Pro;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .accordion-body {
+        font-family: Source Sans Pro;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #565656;
+
+    }
+
+    .accordion-item {
+        color: var(--bs-accordion-color);
+        background-color: var(--bs-accordion-bg);
+        border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);
+        margin-bottom: 25px;
+    }
+}
+
+/* Media queries end */

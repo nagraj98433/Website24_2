@@ -30,7 +30,7 @@ const How_to_varify_caregiver = () => {
               We understand that the safety and security of your loved one is of the utmost importance. That's why we have a rigorous vetting process for all of our caregiver service providers. We conduct background checks, interviews, and reference checks to ensure that only the best professionals are part of our team.
             </div>
           </div>
-          <div className="verify_caregiver_overlay_container">
+          <div className="verify_caregiver_overlay_container for_desktop_varify">
 
             <div className="image_container_verify">
               <img src={doctor_img} alt="Example Image" />
@@ -49,6 +49,7 @@ const How_to_varify_caregiver = () => {
 
           </div>
         </div>
+
 
       </div>
     </>

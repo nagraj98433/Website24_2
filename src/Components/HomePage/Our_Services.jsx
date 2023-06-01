@@ -30,9 +30,8 @@ const Our_Services = () => {
         </div>
 
         <div class="grid-container_our_services">
-          <div class="grid-item_our_services">
-
-            <div class="image_container_our_services">
+        <div class="grid-item_our_services">
+          <div class="image_container_our_services">
               <img src={Service_bg} alt="Service_bg" />
 
               <div class="overlay_our_services_icon">
@@ -40,12 +39,11 @@ const Our_Services = () => {
               </div>
               <div class="overlay_our_services">
                <div className="our_services_heading">Attendant Services</div>
-               <div className="our_services_description">Our attendants are certified caregivers highly experienced in various nursing care specializations</div>
+               <div className="our_services_description2">Our physiotherapists are experienced in providing complete range of physiotherapy services</div>
               </div>
             </div>
-
-
           </div>
+
           <div class="grid-item_our_services">
           <div class="image_container_our_services">
               <img src={Service_bg} alt="Service_bg" />
@@ -54,11 +52,12 @@ const Our_Services = () => {
                 <img src={physiotherapy} alt="attendant_icon" />
               </div>
               <div class="overlay_our_services">
-               <div className="our_services_heading">Physiotherapy</div>
+               <div className="our_services_heading2">Physiotherapy</div>
                <div className="our_services_description2">Our physiotherapists are experienced in providing complete range of physiotherapy services</div>
               </div>
             </div>
           </div>
+          
           <div class="grid-item_our_services">
           <div class="image_container_our_services">
               <img src={Service_bg} alt="Service_bg" />
@@ -67,11 +66,13 @@ const Our_Services = () => {
                 <img src={Nursing} alt="attendant_icon" />
               </div>
               <div class="overlay_our_services">
-               <div className="our_services_heading">Nursing Service</div>
-               <div className="our_services_description3">Our nurses are experienced in providing a complete range of nursing care specializations.</div>
+               <div className="our_services_heading3">Nursing Service</div>
+               <div className="our_services_description2">Our physiotherapists are experienced in providing complete range of physiotherapy services</div>
               </div>
             </div>
           </div>
+
+
           <div class="grid-item_our_services">
           <div class="image_container_our_services">
               <img src={Service_bg} alt="Service_bg" />
@@ -80,7 +81,7 @@ const Our_Services = () => {
                 <img src={elder_care} alt="attendant_icon" />
               </div>
               <div class="overlay_our_services">
-               <div className="our_services_heading">Elder Care</div>
+               <div className="our_services_heading4">Elder Care</div>
                <div className="our_services_description4">Care24's qualified clinical staff specialize in providing round-the -clock elder care services</div>
               </div>
             </div>

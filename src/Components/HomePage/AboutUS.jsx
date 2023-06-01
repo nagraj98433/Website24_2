@@ -34,7 +34,7 @@ const AboutUS = () => {
               We at care24 understand the struggles one faces post-surgery or in chronic pain? That is why we are here to help you and your loved ones facing difficulty in going about their daily routines. The elderly of the house need constant attention and care post-surgery or during the recuperating period. You cannot stay by their side every day, and there is nowhere else they would rather be than in the comforts of their home.
             </div>
 
-            <div className="aboutUs_discription1 mt-4">Care24 answers your distress call. A brainchild of IIT alumni Vipin Pathak, and Garima Tripathi, Care24, offers professional care from trained caregivers that help the patient recuperate at home. Care24 has been in operation since 2014 and has successfully helped 60000+ families heal at home in Mumbai and Delhi.</div>
+            <div className="aboutUs_discription1 mt-2">Care24 answers your distress call. A brainchild of IIT alumni Vipin Pathak, and Garima Tripathi, Care24, offers professional care from trained caregivers that help the patient recuperate at home. Care24 has been in operation since 2014 and has successfully helped 60000+ families heal at home in Mumbai and Delhi.</div>
           </div>
           <div className="aboutUs_caregiver_overlay_container">
 

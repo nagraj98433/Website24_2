@@ -45,6 +45,23 @@
   padding: 37px 20px 23px 20px;
 }
 
+.location_input::placeholder, .caregivers_input::placeholder, .HomePage_Form::placeholder{
+  font-size: 1.5rem;
+}
+
+.right_arrow_icon_search {
+  font-size: 2rem;
+}
+
+.input-group-text {
+  font-size: 2rem;
+ 
+}
+
+.form-control {
+  font-size: 1.5rem;
+}
+
 .find_caregivers {
   font-family: Source Serif Pro;
   font-size: 40px;
@@ -179,32 +196,42 @@
   color: #041022;
 }
 
-.experience{
+.experience {
   font-family: Source Sans Pro;
-font-size: 14px;
-font-weight: 400;
-line-height: 18px;
-letter-spacing: 0em;
-text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
 
 }
 
 .enquire_btn {
   background-color: #0D47A1;
 }
-.bg_color{
+
+.enquire_btn_container button {
+  font-size: 2rem;
+}
+
+
+.bg_color {
   background-color: #EAF8FF;
   border-radius: 10px;
-  height: 10rem;
+  /* height: 10rem; */
   display: flex;
   align-items: end;
   justify-content: center;
   margin: 5px;
 }
-.bg_color img{
+
+.bg_color img {
   width: 100%;
 }
-.education_icon, .experience_icon, .star_rating_icon{
+
+.education_icon,
+.experience_icon,
+.star_rating_icon {
   font-size: 10px;
   margin-right: 5px;
 }
@@ -290,15 +317,418 @@ text-align: left;
   max-width: 100%;
 }
 
+.D_none_on_xm{
+  display: none;
+}
+
+
+
+
 /* Media Queries start */
 
 @media screen and (min-width: 300px) and (max-width: 576px) {
   .FormSection {
     margin-top: 25px;
   }
+
+  .Form_main_container {
+    display: none;
+  }
+
+  .grid-container {
+    grid-template-columns: auto;
+  }
+
+  .grid-item {
+    margin: 6px 0px;
+  }
+
+  .card {
+    max-width: 100% !important;
+  }
+
+  .find_caregivers {
+    font-family: Source Serif Pro;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3C3C3C;
+  }
+
+  .Best_Arthritis {
+    font-family: Source Serif Pro;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0C2F62;
+  }
+  .right_arrow_icon_search {
+    margin-right: 0px;
+  }
+
+  .buttons_container{
+    margin-top: 20px;
+  }
+
+
 }
 
-@media screen and (min-width: 768px) and (max-width: 946px) {
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+
+  .find_caregivers {
+    font-family: Source Serif Pro;
+    font-size: 4vw;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3C3C3C;
+  }
+
+  .Best_Arthritis {
+    font-family: Source Serif Pro;
+    font-size: 3vw;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0C2F62;
+  }
+
+  .from_container {
+    width: 32vw;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1rem;
+  }
+
+  .callus_btn {
+    width: 26vw;
+}
+
+
+.Have_a_query {
+  font-family: Source Serif Pro;
+  font-size: 4vw;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #2E3500;
+}
+
+.We_are_here {
+  font-family: Source Sans Pro;
+  font-size: 3vw;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #5D671A;
+}
+
+.search_container {
+  margin-right: 20px;
+}
+
+.right_arrow_icon_search {
+  margin-right: 0px;
+}
+
+.buttons_container{
+  margin-top: 20px;
+}
+
+
+}
+
+
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+  .find_caregivers {
+    font-family: Source Serif Pro;
+    font-size: 4vw;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3C3C3C;
+  }
+
+  .Best_Arthritis {
+    font-family: Source Serif Pro;
+    font-size: 3vw;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0C2F62;
+  }
+
+  .from_container {
+    width: 32vw;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1rem;
+  }
+
+  .callus_btn {
+    width: 26vw;
+}
+
+
+.Have_a_query {
+  font-family: Source Serif Pro;
+  font-size: 4vw;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #2E3500;
+}
+
+.We_are_here {
+  font-family: Source Sans Pro;
+  font-size: 3vw;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #5D671A;
+}
+
+.search_container {
+  margin-right: 20px;
+}
+
+.right_arrow_icon_search {
+  margin-right: 0px;
+}
+
+.buttons_container{
+  margin-top: 20px;
+}
+
+
+}
+
+
+
+
+@media screen and (min-width: 576px) and (max-width: 728px) {
+
+  .name {
+    font-family: Source Serif Pro;
+    font-size: 2.1vw;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.star_rating_icon {
+  font-size: 1vw;
+  margin-right: 5px;
+  }
+
+  .ratinng_star {
+    font-family: Inter;
+    font-size: 2vw;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #005B9E;
+    background-color: #DAFBFF;
+    width: 6vw;
+    border-radius: 4px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.dentity_age {
+  font-family: Source Sans Pro;
+  font-size: 2.1vw;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #6E6E6E;
+}
+
+.education {
+  font-family: Source Sans Pro;
+  font-size: 2.1vw;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #041022;
+}
+
+.experience {
+  font-family: Source Sans Pro;
+  font-size: 2.1vw;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.enquire_btn_container button {
+  font-size: 1.8vw;
+}
+
+}
+
+
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+  .name {
+    font-family: Source Serif Pro;
+    font-size: 1.5vw;
+    font-weight: 400;
+    line-height: 8px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.star_rating_icon {
+  font-size: 1vw;
+  margin-right: 5px;
+  }
+
+  .ratinng_star {
+    font-family: Inter;
+    font-size: 1.4vw;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #005B9E;
+    background-color: #DAFBFF;
+    width: 5vw;
+    border-radius: 4px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.dentity_age {
+  font-family: Source Sans Pro;
+  font-size: 2.1vw;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #6E6E6E;
+}
+
+.education {
+  font-family: Source Sans Pro;
+  font-size: 1.4vw;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #041022;
+}
+
+.experience {
+  font-family: Source Sans Pro;
+  font-size: 1.4vw;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.enquire_btn_container button {
+  font-size: 1.7vw;
+}
+
+}
+
+
+
+
+
+/* banner Second only for mobile css start */
+
+@media screen and (min-width:300px) and (Max-width:576px) {
+  .overlay_Banner_second{
+    display: none;
+  }
+
+  .overlay_Banner_second_content {
+    position: absolute;
+    top: 0;
+    left: 11vw;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+
+  .Banner_second_heading {
+    font-family: Source Serif Pro;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E6F1F9;
+  }
+
+  .Banner_second_description {
+    font-family: Source Sans Pro;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #B0D3ED;
+  }
+
+  .image_container_second_banner img {
+    height: 150px;
+}
+
+.Banner_second_btn_section button{
+  padding: 7px 40px;
+  }
+
+  .D_none_on_xm{
+    display: block;
+    margin-bottom: 25px;
+  }
+
+
+}
+
+/* banner Second only for mobile css end */
+
+
+
+
+
+
+
+
+/* @media screen and (min-width: 768px) and (max-width: 946px) {
   .care {
     padding: 4px 2px;
   }
@@ -306,7 +736,7 @@ text-align: left;
   .from_container {
     padding: 37px 10px 60px 10px;
   }
-}
+} */
 
 /* Media Queries end */
 

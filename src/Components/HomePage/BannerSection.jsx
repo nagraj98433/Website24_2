@@ -5,7 +5,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faThumbsUp } from '@fortawesome/free-solid-svg-icons';
 import 'bootstrap/dist/css/bootstrap.css';
-import care1 from '../../assets/Images/care1.png'
+import care1_overlay from '../../assets/Images/care1_overlay.png'
 import BannerSection_img from '../../assets/Images/BannerSection_img.png'
 import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
 
@@ -17,7 +17,7 @@ library.add(fas);
 const BannerSection = () => {
   return (
     <>
-      <div className="Max_width80 mt-4">
+      <div className="Max_width80 mt-5">
         <div className="BannerSection_container">
           <div className="container">
             <div className="Content_container">
@@ -51,18 +51,19 @@ const BannerSection = () => {
                 </div>
               </div>
 
-              <div className="buttons_container mt-4">
-                <button type="button" className="btn btn-primary me-3">Call us now</button>
-                <button type="button" className="btn btn-success">Request a callback</button>
+              <div className="buttons_container">
+                <button type="button" className="btn btn-primary me-3 px-4 py-3">Call us now</button>
+                <button type="button" className="btn btn-success px-4 py-3">Request a callback</button>
               </div>
 
             </div>
             <div className="img_container">
               <div class="image_container_bannerSection">
-                <img src={care1} alt="care1_img" />
-                <div class="overlay_bannerSection">
+                <img src={care1_overlay} alt="care1_img" />
+                
+                {/* <div class="overlay_bannerSection">
                  <img src={BannerSection_img} alt="bannerSection_img" />
-                </div>
+                </div> */}
 
                 <div class="overlay_bannerSection_content">
                  <div className="d-flex align-items-center">

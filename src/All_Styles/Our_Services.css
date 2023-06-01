@@ -112,6 +112,37 @@
     color: #2FB4FF;
 }
 
+.our_services_heading2{
+    font-family: Source Sans Pro;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #00CF9D;
+}
+
+.our_services_heading3{
+    font-family: Source Sans Pro;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FAB958;
+}
+
+.our_services_heading4{
+    font-family: Source Sans Pro;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #B479FF;
+}
+
+
 .our_services_description {
     font-family: Source Sans Pro;
     font-size: 22px;

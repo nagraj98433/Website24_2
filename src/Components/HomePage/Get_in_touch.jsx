@@ -23,8 +23,8 @@ const Get_in_touch = () => {
 
           <div class="overlay_get_in_touch_content">
           <div className="get_in_touch_heading">Get in Touch</div>
-          <div className="get_in_touch_description mt-4">Give us a call today to schedule a free in-home assessment and learn more about how we can help you or your loved one.</div>
-          <div className="get_in_touch_btn_section mt-4"><button type="button" class="btn btn-primary">Call us now</button></div>
+          <div className="get_in_touch_description">Give us a call today to schedule a free in-home assessment and learn more about how we can help you or your loved one.</div>
+          <div className="get_in_touch_btn_section"><button type="button" class="btn btn-primary">Call us now</button></div>
           </div>
         </div>
 

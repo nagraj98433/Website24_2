@@ -10,6 +10,9 @@ import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 import { faShoppingBag } from '@fortawesome/free-solid-svg-icons';
 import caregiver_img from '../../assets/Images/caregiver_img.png'
+import Blue_Banner from '../../assets/Images/Blue_Banner.png'
+import doctor_img3 from '../../assets/Images/doctor_img3.png'
+
 import 'bootstrap/dist/css/bootstrap.css';
 
 // Add the desired icons to the library
@@ -62,6 +65,35 @@ const Search_Form = () => {
 
 
 
+  // API Calling start
+
+  const [cgsProfile, setCgsProfile] = useState([]);
+
+  useEffect(() => {
+    fetch('https://admin.care24.co.in/desertbox/api/getCGSProfile/?page=1', {
+      method: 'GET',
+      headers: {
+        'Authorization': 'Token b22c4f7adc8ac8ea95138067bddb04b64358202c',
+        'Cookie': 'csrftoken=s0ildCtQbbUhlXi5IKdYsSGJ2djUOuAXr8SrEAYheWul9tAd10YhSe78XV2DCHbz'
+      }
+    })
+      .then(response => response.json())
+      .then(data => setCgsProfile(data.data))
+      .catch(error => console.error(error))
+  }, []);
+
+  cgsProfile.map((preval) => {
+    console.log(preval)
+  })
+
+
+  // API Calling end
+
+
+
+
+
+
   return (
     <>
       <div className="Max_width80 mt-5">
@@ -74,7 +106,7 @@ const Search_Form = () => {
             <div className="caregivers_filters_container d-flex">
               <div className="input-group">
                 <span className="input-group-text border-0 left_location_icon" id="basic-addon1"> <FontAwesomeIcon icon={faMapMarkerAlt} /></span>
-                <input type="text" className="form-control location_input border-0 border-end" placeholder="Powai" aria-label="Username" aria-describedby="basic-addon1" />
+                <input type="number" className="form-control location_input border-0 border-end" placeholder="Pin code" aria-label="Username" aria-describedby="basic-addon1" />
               </div>
               <div className="input-group ">
                 <span className="input-group-text border-0 caregivers_search" id="basic-addon1">  <FontAwesomeIcon icon={faSearch} /></span>
@@ -217,6 +249,35 @@ const Search_Form = () => {
                   </div>
                 </div>
               </div>
+
+
+              {/* on mobile banner to be shown start */}
+
+              <div className="mt-4 D_none_on_xm">
+        <div className="image_container_second_banner">
+          <img src={Blue_Banner} alt="Example Image" />
+          <div class="overlay_Banner_second">
+          <img src={doctor_img3} alt="doctor3_img" />
+          </div>
+
+          <div class="overlay_Banner_second_content">
+          <div className="Banner_second_heading">Not sure how to go ahead?</div>
+          <div className="Banner_second_description">Give us a call and we'll guide you through the process of selecting the best caregiver for your loved ones.</div>
+          <div className="Banner_second_btn_section mt-4"><button type="button" class="btn btn-primary">Call us now</button></div>
+          </div>
+        </div>
+
+      </div>
+
+            {/* on mobile banner to be shown end */}
+
+              
+
+
+
+
+
+
 
               <div className="grid-item">
                 <div className="card mb-3" style={{maxWidth:'384px'}}>

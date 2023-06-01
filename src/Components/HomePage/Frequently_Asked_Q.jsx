@@ -52,7 +52,7 @@ const Frequently_Asked_Q = () => {
           </Accordion.Item>
 
           <Accordion.Item eventKey="3">
-            <Accordion.Header>Are Care24’s caregivers trained and experienced?</Accordion.Header>
+            <Accordion.Header>What is the process for hiring a caregiver service provider?</Accordion.Header>
             <Accordion.Body>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad

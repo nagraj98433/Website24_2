@@ -4,7 +4,9 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import 'bootstrap/dist/css/bootstrap.css';
-import Blue_Banner from '../../assets/Images/Blue_Banner.png'
+
+// import Blue_Banner from '../../assets/Images/Blue_Banner.png'
+import Blue_Banner from '../../assets/Images/footer_bg.png'
 import logo from '../../assets/Images/logo.png'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';

@@ -29,7 +29,7 @@ const Main = () => {
   {/* <Our_Services/> */}
   <Frequently_Asked_Q/>
   <Get_in_touch/>
-  <FooterSection/>
+  {/* <FooterSection/> */}
   {/* <Checking/> */}
     </>
   )

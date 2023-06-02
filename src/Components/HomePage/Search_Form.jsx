@@ -13,6 +13,8 @@ import caregiver_img from '../../assets/Images/caregiver_img.png'
 import Blue_Banner from '../../assets/Images/Blue_Banner.png'
 import doctor_img3 from '../../assets/Images/doctor_img3.png'
 
+import Profile_cards from "./Profile_cards";
+
 import 'bootstrap/dist/css/bootstrap.css';
 
 // Add the desired icons to the library
@@ -100,7 +102,7 @@ const Search_Form = () => {
         <div className="search_form_container">
           <div className="search_container">
             <div className="find_caregivers">
-            Search for services around you
+              Search for services around you
             </div>
 
             <div className="caregivers_filters_container d-flex">
@@ -122,137 +124,29 @@ const Search_Form = () => {
               <div className="Best_Arthritis">Best Arthritis Care Services in <span className="part_text fw-bold">Powai, Mumbai</span></div>
             </div>
             <div className="grid-container">
-              <div className="grid-item">
-                <div className="card mb-3" style={{maxWidth:'384px'}}>
-                  <div className="row g-0">
-                    <div className="col-md-4">
-                     <div className="bg_color">
-                     <img src={caregiver_img} className="img-fluid rounded-start" alt="caregiver_img" />
-                     </div>
-                    </div>
-                    <div className="col-md-8">
-                      <div className="card-body">
-                      <div className="card_details_container">
-                    <div className="name_rating_container d-flex justify-content-between">
-                      <div className="name">Gurpreet Singh</div>
-                      <div className="ratinng_star"><span className="star_rating_icon"> <FontAwesomeIcon icon="star" /></span> 4.0</div>
-                    </div>
-                    <div className="identity_age mb-2">
-                    Nurse, 29
-                    </div>
-                    <div className="education mb-2">
-                    <span className="education_icon"> <FontAwesomeIcon icon={faGraduationCap} /></span> BS in Nursing (BSN)
-                    </div>
-                    <div className="experience mb-2"> <span className="experience_icon"> <FontAwesomeIcon icon={faShoppingBag} /></span> 3 years in clinical nursing </div>
-                    <div className="enquire_btn_container text-start">
-                    <button type="button" className="btn btn-primary enquire_btn w-100">Enquire Now</button>
-                    </div>
-                  </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
 
-              <div className="grid-item">
-                <div className="card mb-3" style={{maxWidth:'384px'}}>
-                  <div className="row g-0">
-                    <div className="col-md-4">
-                     <div className="bg_color">
-                     <img src={caregiver_img} className="img-fluid rounded-start" alt="caregiver_img" />
-                     </div>
-                    </div>
-                    <div className="col-md-8">
-                      <div className="card-body">
-                      <div className="card_details_container">
-                    <div className="name_rating_container d-flex justify-content-between">
-                      <div className="name">Gurpreet Singh</div>
-                      <div className="ratinng_star"><span className="star_rating_icon"> <FontAwesomeIcon icon="star" /></span> 4.0</div>
-                    </div>
-                    <div className="identity_age mb-2">
-                    Nurse, 29
-                    </div>
-                    <div className="education mb-2">
-                    <span className="education_icon"> <FontAwesomeIcon icon={faGraduationCap} /></span> BS in Nursing (BSN)
-                    </div>
-                    <div className="experience mb-2"> <span className="experience_icon"> <FontAwesomeIcon icon={faShoppingBag} /></span> 3 years in clinical nursing </div>
-                    <div className="enquire_btn_container text-start">
-                    <button type="button" className="btn btn-primary enquire_btn w-100">Enquire Now</button>
-                    </div>
-                  </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              {/* Card start here */}
 
-              <div className="grid-item">
-                <div className="card mb-3" style={{maxWidth:'384px'}}>
-                  <div className="row g-0">
-                    <div className="col-md-4">
-                     <div className="bg_color">
-                     <img src={caregiver_img} className="img-fluid rounded-start" alt="caregiver_img" />
-                     </div>
-                    </div>
-                    <div className="col-md-8">
-                      <div className="card-body">
-                      <div className="card_details_container">
-                    <div className="name_rating_container d-flex justify-content-between">
-                      <div className="name">Gurpreet Singh</div>
-                      <div className="ratinng_star"><span className="star_rating_icon"> <FontAwesomeIcon icon="star" /></span> 4.0</div>
-                    </div>
-                    <div className="identity_age mb-2">
-                    Nurse, 29
-                    </div>
-                    <div className="education mb-2">
-                    <span className="education_icon"> <FontAwesomeIcon icon={faGraduationCap} /></span> BS in Nursing (BSN)
-                    </div>
-                    <div className="experience mb-2"> <span className="experience_icon"> <FontAwesomeIcon icon={faShoppingBag} /></span> 3 years in clinical nursing </div>
-                    <div className="enquire_btn_container text-start">
-                    <button type="button" className="btn btn-primary enquire_btn w-100">Enquire Now</button>
-                    </div>
-                  </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              {cgsProfile.map((value, ind) => (
 
-              <div className="grid-item">
-                <div className="card mb-3" style={{maxWidth:'384px'}}>
-                  <div className="row g-0">
-                    <div className="col-md-4">
-                     <div className="bg_color">
-                     <img src={caregiver_img} className="img-fluid rounded-start" alt="caregiver_img" />
-                     </div>
-                    </div>
-                    <div className="col-md-8">
-                      <div className="card-body">
-                      <div className="card_details_container">
-                    <div className="name_rating_container d-flex justify-content-between">
-                      <div className="name">Gurpreet Singh</div>
-                      <div className="ratinng_star"><span className="star_rating_icon"> <FontAwesomeIcon icon="star" /></span> 4.0</div>
-                    </div>
-                    <div className="identity_age mb-2">
-                    Nurse, 29
-                    </div>
-                    <div className="education mb-2">
-                    <span className="education_icon"> <FontAwesomeIcon icon={faGraduationCap} /></span> BS in Nursing (BSN)
-                    </div>
-                    <div className="experience mb-2"> <span className="experience_icon"> <FontAwesomeIcon icon={faShoppingBag} /></span> 3 years in clinical nursing </div>
-                    <div className="enquire_btn_container text-start">
-                    <button type="button" className="btn btn-primary enquire_btn w-100">Enquire Now</button>
-                    </div>
-                  </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+                <Profile_cards cg_name={value.cg_name} profile_pc={value.profile_pic} price={value.price_package} key={ind}
+                  condition_Handled={value.condition_handled}
+                />
+
+              ))}
+
+              {/* Card end here */}
+
+
+
+
+
+
+
 
 
               {/* on mobile banner to be shown start */}
-
+              {/* 
               <div className="mt-4 D_none_on_xm">
         <div className="image_container_second_banner">
           <img src={Blue_Banner} alt="Example Image" />
@@ -267,11 +161,9 @@ const Search_Form = () => {
           </div>
         </div>
 
-      </div>
+      </div> */}
 
-            {/* on mobile banner to be shown end */}
-
-              
+              {/* on mobile banner to be shown end */}
 
 
 
@@ -279,201 +171,18 @@ const Search_Form = () => {
 
 
 
-              <div className="grid-item">
-                <div className="card mb-3" style={{maxWidth:'384px'}}>
-                  <div className="row g-0">
-                    <div className="col-md-4">
-                     <div className="bg_color">
-                     <img src={caregiver_img} className="img-fluid rounded-start" alt="caregiver_img" />
-                     </div>
-                    </div>
-                    <div className="col-md-8">
-                      <div className="card-body">
-                      <div className="card_details_container">
-                    <div className="name_rating_container d-flex justify-content-between">
-                      <div className="name">Gurpreet Singh</div>
-                      <div className="ratinng_star"><span className="star_rating_icon"> <FontAwesomeIcon icon="star" /></span> 4.0</div>
-                    </div>
-                    <div className="identity_age mb-2">
-                    Nurse, 29
-                    </div>
-                    <div className="education mb-2">
-                    <span className="education_icon"> <FontAwesomeIcon icon={faGraduationCap} /></span> BS in Nursing (BSN)
-                    </div>
-                    <div className="experience mb-2"> <span className="experience_icon"> <FontAwesomeIcon icon={faShoppingBag} /></span> 3 years in clinical nursing </div>
-                    <div className="enquire_btn_container text-start">
-                    <button type="button" className="btn btn-primary enquire_btn w-100">Enquire Now</button>
-                    </div>
-                  </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
 
-              <div className="grid-item">
-                <div className="card mb-3" style={{maxWidth:'384px'}}>
-                  <div className="row g-0">
-                    <div className="col-md-4">
-                     <div className="bg_color">
-                     <img src={caregiver_img} className="img-fluid rounded-start" alt="caregiver_img" />
-                     </div>
-                    </div>
-                    <div className="col-md-8">
-                      <div className="card-body">
-                      <div className="card_details_container">
-                    <div className="name_rating_container d-flex justify-content-between">
-                      <div className="name">Gurpreet Singh</div>
-                      <div className="ratinng_star"><span className="star_rating_icon"> <FontAwesomeIcon icon="star" /></span> 4.0</div>
-                    </div>
-                    <div className="identity_age mb-2">
-                    Nurse, 29
-                    </div>
-                    <div className="education mb-2">
-                    <span className="education_icon"> <FontAwesomeIcon icon={faGraduationCap} /></span> BS in Nursing (BSN)
-                    </div>
-                    <div className="experience mb-2"> <span className="experience_icon"> <FontAwesomeIcon icon={faShoppingBag} /></span> 3 years in clinical nursing </div>
-                    <div className="enquire_btn_container text-start">
-                    <button type="button" className="btn btn-primary enquire_btn w-100">Enquire Now</button>
-                    </div>
-                  </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
 
-              <div className="grid-item">
-                <div className="card mb-3" style={{maxWidth:'384px'}}>
-                  <div className="row g-0">
-                    <div className="col-md-4">
-                     <div className="bg_color">
-                     <img src={caregiver_img} className="img-fluid rounded-start" alt="caregiver_img" />
-                     </div>
-                    </div>
-                    <div className="col-md-8">
-                      <div className="card-body">
-                      <div className="card_details_container">
-                    <div className="name_rating_container d-flex justify-content-between">
-                      <div className="name">Gurpreet Singh</div>
-                      <div className="ratinng_star"><span className="star_rating_icon"> <FontAwesomeIcon icon="star" /></span> 4.0</div>
-                    </div>
-                    <div className="identity_age mb-2">
-                    Nurse, 29
-                    </div>
-                    <div className="education mb-2">
-                    <span className="education_icon"> <FontAwesomeIcon icon={faGraduationCap} /></span> BS in Nursing (BSN)
-                    </div>
-                    <div className="experience mb-2"> <span className="experience_icon"> <FontAwesomeIcon icon={faShoppingBag} /></span> 3 years in clinical nursing </div>
-                    <div className="enquire_btn_container text-start">
-                    <button type="button" className="btn btn-primary enquire_btn w-100">Enquire Now</button>
-                    </div>
-                  </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
 
-              <div className="grid-item">
-                <div className="card mb-3" style={{maxWidth:'384px'}}>
-                  <div className="row g-0">
-                    <div className="col-md-4">
-                     <div className="bg_color">
-                     <img src={caregiver_img} className="img-fluid rounded-start" alt="caregiver_img" />
-                     </div>
-                    </div>
-                    <div className="col-md-8">
-                      <div className="card-body">
-                      <div className="card_details_container">
-                    <div className="name_rating_container d-flex justify-content-between">
-                      <div className="name">Gurpreet Singh</div>
-                      <div className="ratinng_star"><span className="star_rating_icon"> <FontAwesomeIcon icon="star" /></span> 4.0</div>
-                    </div>
-                    <div className="identity_age mb-2">
-                    Nurse, 29
-                    </div>
-                    <div className="education mb-2">
-                    <span className="education_icon"> <FontAwesomeIcon icon={faGraduationCap} /></span> BS in Nursing (BSN)
-                    </div>
-                    <div className="experience mb-2"> <span className="experience_icon"> <FontAwesomeIcon icon={faShoppingBag} /></span> 3 years in clinical nursing </div>
-                    <div className="enquire_btn_container text-start">
-                    <button type="button" className="btn btn-primary enquire_btn w-100">Enquire Now</button>
-                    </div>
-                  </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
 
-              <div className="grid-item">
-                <div className="card mb-3" style={{maxWidth:'384px'}}>
-                  <div className="row g-0">
-                    <div className="col-md-4">
-                     <div className="bg_color">
-                     <img src={caregiver_img} className="img-fluid rounded-start" alt="caregiver_img" />
-                     </div>
-                    </div>
-                    <div className="col-md-8">
-                      <div className="card-body">
-                      <div className="card_details_container">
-                    <div className="name_rating_container d-flex justify-content-between">
-                      <div className="name">Gurpreet Singh</div>
-                      <div className="ratinng_star"><span className="star_rating_icon"> <FontAwesomeIcon icon="star" /></span> 4.0</div>
-                    </div>
-                    <div className="identity_age mb-2">
-                    Nurse, 29
-                    </div>
-                    <div className="education mb-2">
-                    <span className="education_icon"> <FontAwesomeIcon icon={faGraduationCap} /></span> BS in Nursing (BSN)
-                    </div>
-                    <div className="experience mb-2"> <span className="experience_icon"> <FontAwesomeIcon icon={faShoppingBag} /></span> 3 years in clinical nursing </div>
-                    <div className="enquire_btn_container text-start">
-                    <button type="button" className="btn btn-primary enquire_btn w-100">Enquire Now</button>
-                    </div>
-                  </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
 
-              <div className="grid-item">
-                <div className="card mb-3" style={{maxWidth:'384px'}}>
-                  <div className="row g-0">
-                    <div className="col-md-4">
-                     <div className="bg_color">
-                     <img src={caregiver_img} className="img-fluid rounded-start" alt="caregiver_img" />
-                     </div>
-                    </div>
-                    <div className="col-md-8">
-                      <div className="card-body">
-                      <div className="card_details_container">
-                    <div className="name_rating_container d-flex justify-content-between">
-                      <div className="name">Gurpreet Singh</div>
-                      <div className="ratinng_star"><span className="star_rating_icon"> <FontAwesomeIcon icon="star" /></span> 4.0</div>
-                    </div>
-                    <div className="identity_age mb-2">
-                    Nurse, 29
-                    </div>
-                    <div className="education mb-2">
-                    <span className="education_icon"> <FontAwesomeIcon icon={faGraduationCap} /></span> BS in Nursing (BSN)
-                    </div>
-                    <div className="experience mb-2"> <span className="experience_icon"> <FontAwesomeIcon icon={faShoppingBag} /></span> 3 years in clinical nursing </div>
-                    <div className="enquire_btn_container text-start">
-                    <button type="button" className="btn btn-primary enquire_btn w-100">Enquire Now</button>
-                    </div>
-                  </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
+
+
+
+
 
             </div>
-            
+
 
           </div>
           <div className="Form_main_container">

@@ -13,6 +13,7 @@ import caregiver_img from '../../assets/Images/caregiver_img.png'
 import Blue_Banner from '../../assets/Images/Blue_Banner.png'
 import doctor_img3 from '../../assets/Images/doctor_img3.png'
 
+
 import 'bootstrap/dist/css/bootstrap.css';
 
 // Add the desired icons to the library
@@ -23,7 +24,7 @@ const Profile_cards = (props) => {
 
   return (
     <>
-      <div className="grid-item">
+      <div className="grid-item desktop_block">
                 <div className="card mb-3" style={{maxWidth:'384px'}}>
                   <div className="row g-0">
                     <div className="col-md-4">
@@ -54,6 +55,45 @@ const Profile_cards = (props) => {
                   </div>
                 </div>
               </div>
+
+
+
+
+
+
+
+
+              {/* For Mobile cards start start */}
+
+              <div className="card CardStyle XS_Block mb-5">
+                <div className='Flex_container'>
+                  <div className='Img_container'>
+                    <img src={props.profile_pc} className="card-img-top" alt="..." />
+                  </div>
+                  <div className="card-body p-0" style={{ maxWidth: '240px' }}>
+                    <div className="card_details_container">
+                    <div className="name_rating_container d-flex justify-content-between">
+                      <div className="name">{props.cg_name}</div>
+                      <div className="ratinng_star"><span className="star_rating_icon"> <FontAwesomeIcon icon="star" /></span> 4.0</div>
+                    </div>
+                    <div className="identity_age mb-2">
+                    Nurse, 29
+                    </div>
+                    <div className="education mb-2">
+                    <span className="education_icon"> <FontAwesomeIcon icon={faGraduationCap} /></span> BS in Nursing (BSN)
+                    </div>
+                    <div className="experience mb-2"> <span className="experience_icon"> <FontAwesomeIcon icon={faShoppingBag} /></span> 3 years in clinical nursing </div>
+                    <div className="enquire_btn_container text-start">
+                    <button type="button" className="btn btn-primary enquire_btn w-100">Enquire Now</button>
+                    </div>
+                  </div>
+                    
+                  </div>
+                </div>
+              </div>
+
+              {/* For Mobile cards start start */}
+
     </>
   )
 }

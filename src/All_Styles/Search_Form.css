@@ -81,7 +81,7 @@
 .caregivers_search {
   background-color: white;
   border: 1px solid #ced4da;
-  border-radius: 1.375rem;
+  border-radius: 8.375rem;
 }
 
 .location_input:focus,
@@ -250,13 +250,7 @@
   border-radius: 1rem;
 }
 
-::placeholder {
-  color: gray !important;
-  font-family: "poppins", sans-serif !important;
-  font-weight: 500 !important;
-  font-size: 1rem;
-  opacity: 0.5;
-}
+
 
 .form_btn {
   background-color: #1d2150 !important;

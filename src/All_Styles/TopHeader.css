@@ -88,8 +88,8 @@
 @media screen and (min-width:300px) and (max-width:576px) {
   
   .overlay_number {
-    top: 12.5vw;
-    left: 74vw;
+    top: 11.5vw;
+    left: 75vw;
     width: 20%;
     height: 0;
     font-size: 5.3vw;

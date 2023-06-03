@@ -57,6 +57,7 @@
     font-family: Source Serif Pro;
     font-size: 20px;
     font-weight: 400;
+    padding: 10px 20px;
   }
   
 
@@ -221,8 +222,93 @@
 }
 
 
+  }
 
 
+  @media screen and (min-width:1500px) and (max-width:1700px) {
+    .get_in_touch_heading {
+      font-family: Source Serif Pro;
+      font-size: 38px;
+      font-weight: 600;
+      line-height: 45px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #FFF6E6;
+  }
+
+  .get_in_touch_description {
+    font-family: Source Sans Pro;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1B1717;
+    margin: 23px 0;
+}
+
+.get_in_touch_btn_section button {
+  font-family: Source Serif Pro;
+  font-size: 23px;
+  font-weight: 400;
+  padding: 10px 20px;
+}
+
+.overlay_get_in_touch_content {
+  position: absolute;
+  top: 99px;
+  left: 110px;
+  width: 45%;
+  height: 68%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #fff;
+}
+  }
+
+  @media screen and (min-width:1700px) and (max-width:1920px) {
+    .get_in_touch_heading {
+      font-family: Source Serif Pro;
+      font-size: 39px;
+      font-weight: 600;
+      line-height: 45px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #FFF6E6;
+  }
+
+  .get_in_touch_description {
+    font-family: Source Sans Pro;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1B1717;
+    margin: 25px 0;
+}
+
+.get_in_touch_btn_section button {
+  font-family: Source Serif Pro;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 10px 20px;
+}
+
+.overlay_get_in_touch_content {
+  position: absolute;
+  top: 99px;
+  left: 110px;
+  width: 45%;
+  height: 68%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #fff;
+}
   }
 
   /* Media queries end */

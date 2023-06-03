@@ -88,8 +88,8 @@
 @media screen and (min-width:300px) and (max-width:576px) {
   
   .overlay_number {
-    top: 11.5vw;
-    left: 76vw;
+    top: 12.5vw;
+    left: 74vw;
     width: 20%;
     height: 0;
     font-size: 5.3vw;
@@ -129,7 +129,7 @@
 
   .overlay_number {
    top: 10.5vw;
-    left: 75vw;
+    left: 74vw;
     width: 20%;
     height: 0;
     font-size: 5.3vw;
@@ -212,6 +212,233 @@
   }
    
 }
+
+
+@media screen and (min-width:768px) and (max-width:992px) {
+  
+  .overlay_number {
+    top: 3.5vw;
+    left: 74vw;
+    width: 20%;
+    height: 0;
+    font-size: 1.3vw;
+  }
+
+  .overlay {
+    top: 4px;
+    left: -5px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .overlay_logo {
+    top: 0;
+    left: 15px;
+    width: 13%;
+    height: 100%;
+   
+  }
+   
+}
+
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+  
+  .overlay_number {
+    top: 3.5vw;
+    left: 74vw;
+    width: 20%;
+    height: 0;
+    font-size: 1.3vw;
+  }
+
+  .overlay_logo {
+    top: 0;
+    left: 50px;
+    width: 13%;
+    height: 100%;
+   
+  }
+  .Header_bg{
+    width: 100%;
+  }
+
+  .image_container_logo {
+    width: 100%;
+    color: white;
+}
+   
+}
+
+
+@media screen and (min-width:1200px) and (max-width:1400px) {
+  
+  .overlay_number {
+    top: 3.3vw;
+    left: 74vw;
+    width: 20%;
+    height: 0;
+    font-size: 1.3vw;
+  }
+
+  .overlay_logo {
+    top: 0;
+    left: 50px;
+    width: 13%;
+    height: 100%;
+   
+  }
+  .Header_bg{
+    width: 100%;
+  }
+
+  .image_container_logo {
+    width: 100%;
+    color: white;
+}
+   
+}
+
+
+
+@media screen and (min-width:1400px) and (max-width:1600px) {
+  
+  .overlay_number {
+    top: 3.5vw;
+    left: 74vw;
+    width: 20%;
+    height: 0;
+    font-size: 1.3vw;
+  }
+
+  .overlay {
+    top: 4px;
+    left: -5px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .overlay_logo {
+    top: 0;
+    left: 50px;
+    width: 13%;
+    height: 100%;
+   
+  }
+  .Header_bg{
+    width: 100%;
+  }
+
+  .image_container_logo {
+    width: 100%;
+    color: white;
+}
+   
+}
+
+
+@media screen and (min-width:1600px) and (max-width:1700px) {
+  .numberImg {
+    width: 19%;
+}
+
+
+  .overlay_number {
+    top: 3.1vw;
+    left: 75vw;
+    width: 20%;
+    height: 0;
+    font-size: 1.3vw;
+  }
+
+  .overlay_logo {
+    top: 0;
+    left: 50px;
+    width: 13%;
+    height: 100%;
+   
+  }
+  .Header_bg{
+    width: 100%;
+  }
+
+  .image_container_logo {
+    width: 100%;
+    color: white;
+}
+   
+}
+
+
+@media screen and (min-width:1700px) and (max-width:1800px) {
+  
+  .numberImg {
+    width: 19%;
+}
+
+  .overlay_number {
+    top: 3.1vw;
+    left: 75vw;
+    width: 20%;
+    height: 0;
+    font-size: 1.3vw;
+  }
+
+  .overlay_logo {
+    top: 0;
+    left: 50px;
+    width: 13%;
+    height: 100%;
+   
+  }
+  .Header_bg{
+    width: 100%;
+  }
+
+  .image_container_logo {
+    width: 100%;
+    color: white;
+}
+
+
+   
+}
+
+@media screen and (min-width:1800px) and (max-width:1920px) {
+  
+  .numberImg {
+    width: 19%;
+}
+
+  .overlay_number {
+    top: 3.1vw;
+    left: 74vw;
+    width: 20%;
+    height: 0;
+    font-size: 1.3vw;
+  }
+
+  .overlay_logo {
+    top: 0;
+    left: 50px;
+    width: 13%;
+    height: 100%;
+   
+  }
+  .Header_bg{
+    width: 100%;
+  }
+
+  .image_container_logo {
+    width: 100%;
+    color: white;
+}
+   
+}
+
+
+
+@media screen and (min-width:1338px) and (max-width:1600px) {}
 /* media queries end */
 
 

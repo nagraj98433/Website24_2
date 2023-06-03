@@ -1272,13 +1272,13 @@ color: #002A7B;
 
 .aboutUs_content {
   font-family: Source Serif Pro;
-  font-size: 24px;
+  font-size: 36px;
   font-weight: 600;
   line-height: 45px;
   letter-spacing: 0em;
   text-align: left;
   color: #0C2F62;
-  padding: 10px 20px 10px 20px;
+  padding: 46px 20px 10px 20px;
 }
 
 .aboutUs_discription {
@@ -1398,6 +1398,180 @@ color: #002A7B;
 
   
 }
+
+
+@media screen and (min-width:1484px) and (max-width:1700px) {
+
+  .overlay_aboutUs1 {
+    position: absolute;
+    top: 23px;
+    left: 22px;
+    width: 20.4%;
+    height: 16%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF5EC;
+    border-radius: 30px;
+}
+
+
+  .overlay_aboutUs2 {
+    position: absolute;
+    top: 23px;
+    left: 193px;
+    width: 20.4%;
+    height: 16%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F3FF;
+    border-radius: 30px;
+}
+
+  .overlay_aboutUs3 {
+    position: absolute;
+    top: 23px;
+    left: 366px;
+    width: 20.4%;
+    height: 16%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECF9FF;
+    border-radius: 30px;
+}
+
+.aboutUs_content {
+  font-family: Source Serif Pro;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0C2F62;
+  padding: 46px 20px 24px 20px;
+}
+
+.aboutUs_discription {
+  /* height: 420px; */
+  width: 600px;
+  left: 120px;
+  top: 181px;
+  color: #565656;
+  padding: 0px 4px 24px 30px;
+  font-family: Source Serif Pro;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.aboutUs_discription1 {
+  /* height: 420px; */
+  width: 600px;
+  left: 120px;
+  top: 181px;
+  color: #565656;
+  padding: 12px 4px 0 30px;
+  font-family: Source Serif Pro;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+
+
+
+}
+
+
+@media screen and (min-width:1700px) and (max-width:1920px) {
+
+  .overlay_aboutUs1 {
+    position: absolute;
+    top: 23px;
+    left: 22px;
+    width: 20.4%;
+    height: 16%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF5EC;
+    border-radius: 30px;
+}
+
+
+  .overlay_aboutUs2 {
+    position: absolute;
+    top: 23px;
+    left: 211px;
+    width: 20.4%;
+    height: 16%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F3FF;
+    border-radius: 30px;
+}
+
+  .overlay_aboutUs3 {
+    position: absolute;
+    top: 23px;
+    left: 410px;
+    width: 20.4%;
+    height: 16%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECF9FF;
+    border-radius: 30px;
+}
+
+.aboutUs_content {
+  font-family: Source Serif Pro;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0C2F62;
+  padding: 46px 20px 24px 20px;
+}
+
+.aboutUs_discription {
+  /* height: 420px; */
+  width: 600px;
+  left: 120px;
+  top: 181px;
+  color: #565656;
+  padding: 0px 4px 24px 30px;
+  font-family: Source Serif Pro;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.aboutUs_discription1 {
+  /* height: 420px; */
+  width: 600px;
+  left: 120px;
+  top: 181px;
+  color: #565656;
+  padding: 12px 4px 0 30px;
+  font-family: Source Serif Pro;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+
+}
+
+
+
+
 
 
 

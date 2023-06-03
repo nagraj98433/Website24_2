@@ -13,6 +13,8 @@ import caregiver_img from '../../assets/Images/caregiver_img.png'
 import Blue_Banner from '../../assets/Images/Blue_Banner.png'
 import doctor_img3 from '../../assets/Images/doctor_img3.png'
 
+import axios from 'axios';
+
 import Profile_cards from "./Profile_cards";
 
 import 'bootstrap/dist/css/bootstrap.css';
@@ -84,9 +86,9 @@ const Search_Form = () => {
       .catch(error => console.error(error))
   }, []);
 
-  cgsProfile.map((preval) => {
-    console.log(preval)
-  })
+  // cgsProfile.map((preval) => {
+  //   console.log(preval)
+  // })
 
 
   // API Calling end

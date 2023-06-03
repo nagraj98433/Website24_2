@@ -2,13 +2,13 @@
 
 .Best_care {
     font-family: Source Serif Pro;
-    font-size: 2.8vw;
+    font-size: 3.6vw;
     font-weight: 400;
-    line-height: 45px;
+    line-height: 46px;
     letter-spacing: 0em;
     text-align: left;
     color: #0C2F62;
-    /* margin-top: 29px; */
+    margin-top: 29px;
 }
 
 .Best_care_part {
@@ -19,14 +19,14 @@
 
 .caregiver_description {
     font-family: Source Sans Pro;
-    font-size: 1.9vw;
+    font-size: 26px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 35px;
     letter-spacing: 0em;
     text-align: left;
     color: #797979;
     width: 42vw;
-    margin-top: 1rem;
+    margin-top: 3rem;
 }
 .Best_caregiver_img_container img{
     width: 90%;
@@ -75,13 +75,21 @@
 
 }
 
-
-@media screen and (min-width:577px) and (max-width:768px) {
+@media screen and (min-width:576px) and (max-width:768px) {
+    .Best_care_part {
+        color: #0072C6;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 25px;
+    }
+    
+    
+    
     .Best_care {
         font-family: Source Serif Pro;
-        font-size: 2.8vw;
+        font-size: 20px;
         font-weight: 400;
-        line-height: 27px;
+        line-height: 32px;
         letter-spacing: 0em;
         text-align: left;
         color: #0C2F62;
@@ -90,14 +98,265 @@
     
     .caregiver_description {
         font-family: Source Sans Pro;
-        font-size: 1.9vw;
+        font-size: 14px;
         font-weight: 400;
-        line-height: 20px;
+        line-height: 24px;
         letter-spacing: 0em;
         text-align: left;
         color: #797979;
-        width: 42vw;
+        width: 100%;
         margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .stack_on_xm{
+        flex: none;
+    }
+
+}
+
+
+
+
+
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    .Best_care_part {
+        color: #0072C6;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 25px;
+    }
+    
+    
+    
+    .Best_care {
+        font-family: Source Serif Pro;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 37px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #0C2F62;
+        /* margin-top: 29px; */
+    }
+    
+    .caregiver_description {
+        font-family: Source Sans Pro;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #797979;
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .stack_on_xm{
+        flex: none;
+    }
+
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .Best_care_part {
+        color: #0072C6;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 35px;
+    }
+    
+    
+    
+    .Best_care {
+        font-family: Source Serif Pro;
+        font-size: 31px;
+        font-weight: 400;
+        line-height: 37px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #0C2F62;
+        /* margin-top: 29px; */
+    }
+
+    .caregiver_description {
+        font-family: Source Sans Pro;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #797979;
+        width: 100%;
+        margin-top: 22px;
+        margin-bottom: 20px;
+    }
+
+
+    .stack_on_xm{
+        flex: none;
+    }
+
+}
+
+
+@media screen and (min-width:1200px) and (max-width:1400px) {
+    .Best_care_part {
+        color: #0072C6;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 40px;
+    }
+    
+    
+    .Best_care {
+        font-family: Source Serif Pro;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 48px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #0C2F62;
+        /* margin-top: 29px; */
+    }
+    
+    .caregiver_description {
+        font-family: Source Sans Pro;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #797979;
+        width: 100%;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+
+
+    .stack_on_xm{
+        flex: none;
+    }
+
+}
+
+@media screen and (min-width:1400px) and (max-width:1600px) {
+    .Best_care_part {
+        color: #0072C6;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 40px;
+    }
+    
+    
+    .Best_care {
+        font-family: Source Serif Pro;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 48px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #0C2F62;
+        /* margin-top: 29px; */
+    }
+    
+    .caregiver_description {
+        font-family: Source Sans Pro;
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #797979;
+        width: 100%;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+
+
+    .stack_on_xm{
+        flex: none;
+    }
+
+}
+
+@media screen and (min-width:1600px) and (max-width:1800px) {
+    .Best_care_part {
+        color: #0072C6;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 40px;
+    }
+    
+    
+    .Best_care {
+        font-family: Source Serif Pro;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 48px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #0C2F62;
+        /* margin-top: 29px; */
+    }
+    
+    .caregiver_description {
+        font-family: Source Sans Pro;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #797979;
+        width: 100%;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+
+
+    .stack_on_xm{
+        flex: none;
+    }
+
+}
+
+
+@media screen and (min-width:1800px) and (max-width:1920px) {
+    .Best_care_part {
+        color: #0072C6;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 40px;
+    }
+    
+    
+    .Best_care {
+        font-family: Source Serif Pro;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 48px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #0C2F62;
+        /* margin-top: 29px; */
+    }
+    
+    .caregiver_description {
+        font-family: Source Sans Pro;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #797979;
+        width: 100%;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+
+
+    .stack_on_xm{
+        flex: none;
     }
 
 }

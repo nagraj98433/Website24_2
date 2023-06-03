@@ -247,6 +247,113 @@
 
 
 
+@media screen and (min-width:1400px) and (Max-width:1600px) {
+
+  .Banner_second_heading {
+    font-family: Source Serif Pro;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 99px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E6F1F9;
+}
+
+.Banner_second_description {
+  font-family: Source Sans Pro;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #B0D3ED;
+}
+
+.Banner_second_btn_section{
+  margin-top: 20px;
+}
+
+.Banner_second_btn_section button {
+  padding: 7px 40px;
+  font-size: 24px;
+}
+
+
+
+}
+
+@media screen and (min-width:1600px) and (Max-width:1800px) {
+
+  .Banner_second_heading {
+    font-family: Source Serif Pro;
+    font-size: 39px;
+    font-weight: 400;
+    line-height: 99px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E6F1F9;
+}
+
+.Banner_second_description {
+  font-family: Source Sans Pro;
+  font-size: 29px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #B0D3ED;
+}
+
+.Banner_second_btn_section{
+  margin-top: 20px;
+}
+
+.Banner_second_btn_section button {
+  padding: 7px 40px;
+  font-size: 25px;
+}
+
+
+
+}
+
+@media screen and (min-width:1800px) and (Max-width:1920px) {
+
+  .Banner_second_heading {
+    font-family: Source Serif Pro;
+    font-size: 39px;
+    font-weight: 400;
+    line-height: 99px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E6F1F9;
+}
+
+.Banner_second_description {
+  font-family: Source Sans Pro;
+  font-size: 29px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #B0D3ED;
+}
+
+.Banner_second_btn_section{
+  margin-top: 20px;
+}
+
+.Banner_second_btn_section button {
+  padding: 7px 40px;
+  font-size: 25px;
+}
+
+
+
+}
+
+
+
 
 
 

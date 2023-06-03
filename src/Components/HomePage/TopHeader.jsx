@@ -1,9 +1,11 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import '../../All_Styles/TopHeader.css'
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import 'bootstrap/dist/css/bootstrap.css';
+
+import axios from 'axios';
 
 // Add the desired icons to the library
 library.add(fas);
@@ -15,6 +17,38 @@ import Mobile_bg from '../../assets/Images/Mobile_bg.png'
 
 
 const TopHeader = () => {
+
+
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+
+
+    const fetchData = async () => {
+      try {
+        const response = await axios.get(
+          'https://admin.care24.co.in/c24web/content?name=page1'
+        );
+        setData(response.data);
+      } catch (error) {
+        console.error('Error fetching API:', error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  console.log(data)
+
+
+
+
+
+
+
+
+
+
   return (
     <>
       <div className="Max_width80">

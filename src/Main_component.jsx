@@ -19,7 +19,7 @@ const Main = () => {
     <>
   <TopHeader/>
   <BannerSection/>
-  <Search_Form/>
+  {/* <Search_Form/> */}
   <BannerSecond/>
   {/* <Clients_have_to_say/> */}
   <Best_Caregivers_Services/>

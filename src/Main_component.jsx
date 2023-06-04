@@ -13,26 +13,45 @@ import Frequently_Asked_Q from "./Components/HomePage/Frequently_Asked_Q";
 import Get_in_touch from "./Components/HomePage/Get_in_touch";
 import FooterSection from "./Components/HomePage/FooterSection";
 import Checking from "./Components/HomePage/Checking";
+import { useParams } from 'react-router-dom';
 
-const Main = () => {
+const Main_component = () => {
+
+  let { userId } = useParams();
+
+
+
+  if (userId !== undefined && userId === "page1" || userId === 'page2' || userId === "page3") {
+    userId
+
+  }
+
+  else {
+    userId = 'page1'
+  }
+
+
+
+  console.log(userId)
+
   return (
     <>
-  <TopHeader/>
-  <BannerSection/>
-  <Search_Form/>
-  <BannerSecond/>
-  {/* <Clients_have_to_say/> */}
-  <Best_Caregivers_Services/>
-  <Why_choose_caregivers/>
-  <How_to_varify_caregiver/>
-  <AboutUS/>
-  {/* <Our_Services/> */}
-  <Frequently_Asked_Q/>
-  <Get_in_touch/>
-  {/* <FooterSection/> */}
-  {/* <Checking/> */}
+      <TopHeader />
+      <BannerSection Param={userId} />
+      <Search_Form />
+      <BannerSecond />
+      {/* <Clients_have_to_say/> */}
+      <Best_Caregivers_Services />
+      <Why_choose_caregivers />
+      <How_to_varify_caregiver />
+      <AboutUS />
+      {/* <Our_Services/> */}
+      <Frequently_Asked_Q />
+      <Get_in_touch />
+      {/* <FooterSection/> */}
+      {/* <Checking/> */}
     </>
   )
 }
 
-export default Main
+export default Main_component

@@ -17,14 +17,14 @@ const Get_in_touch = () => {
       <div className="mt-4">
         <div className="image_container_get_in_touch">
           <img src={Orange_Banner} alt="orange_bg" />
-          <div class="overlay_get_in_touch">
-          <img src={doctors_img4} alt="doctor3_img" />
+          <div className="overlay_get_in_touch">
+            <img src={doctors_img4} alt="doctor3_img" />
           </div>
 
-          <div class="overlay_get_in_touch_content">
-          <div className="get_in_touch_heading">Get in Touch</div>
-          <div className="get_in_touch_description">Give us a call today to schedule a free in-home assessment and learn more about how we can help you or your loved one.</div>
-          <div className="get_in_touch_btn_section"><button type="button" class="btn btn-primary">Call us now</button></div>
+          <div className="overlay_get_in_touch_content">
+            <div className="get_in_touch_heading">Get in Touch</div>
+            <div className="get_in_touch_description">Give us a call today to schedule a free in-home assessment and learn more about how we can help you or your loved one.</div>
+            <div className="get_in_touch_btn_section"><button type="button" className="btn btn-primary">Call us now</button></div>
           </div>
         </div>
 

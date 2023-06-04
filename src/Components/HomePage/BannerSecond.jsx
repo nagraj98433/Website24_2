@@ -17,14 +17,14 @@ const BannerSecond = () => {
       <div className="mt-4 D_none_on_xm1">
         <div className="image_container_second_banner">
           <img src={Blue_Banner} alt="Example Image" />
-          <div class="overlay_Banner_second">
-          <img src={doctor_img3} alt="doctor3_img" />
+          <div className="overlay_Banner_second">
+            <img src={doctor_img3} alt="doctor3_img" />
           </div>
 
-          <div class="overlay_Banner_second_content">
-          <div className="Banner_second_heading">Not sure how to go ahead?</div>
-          <div className="Banner_second_description">Give us a call and we'll guide you through the process of selecting the best caregiver for your loved ones.</div>
-          <div className="Banner_second_btn_section mt-4"><button type="button" class="btn btn-primary">Call us now</button></div>
+          <div className="overlay_Banner_second_content">
+            <div className="Banner_second_heading">Not sure how to go ahead?</div>
+            <div className="Banner_second_description">Give us a call and we'll guide you through the process of selecting the best caregiver for your loved ones.</div>
+            <div className="Banner_second_btn_section mt-4"><button type="button" className="btn btn-primary">Call us now</button></div>
           </div>
         </div>
 

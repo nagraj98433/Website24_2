@@ -141,35 +141,44 @@ const Frequently_Asked_Q = (props) => {
           </Accordion.Item>
           <Accordion.Item eventKey="2">
 
-            <Accordion.Header>Are Care24’s caregivers trained and experienced?</Accordion.Header>
+
             
-            <Accordion.Body>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-              minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
-            </Accordion.Body>
+          {
+              (data === null) ?
+                alert('data is loading...')
+                :
+                <Accordion.Header>
+
+                  {(data.data.link_name === 'page1' || data.data.link_name === 'page2' || data.data.link_name === 'page3') ?
+                    data.data.pg_content.pg_content.pg_faq[2].question
+                    :
+                    null
+                  }
+                </Accordion.Header>
+
+
+            }
+            
+            {
+              (data === null) ?
+                alert('data is loading...')
+                :
+
+                <Accordion.Body>
+                {(data.data.link_name === 'page1' || data.data.link_name === 'page2' || data.data.link_name === 'page3') ?
+                    data.data.pg_content.pg_content.pg_faq[2].answer
+                    :
+                    null
+                  }
+              </Accordion.Body>
+
+            }
+            
 
           </Accordion.Item>
 
-          <Accordion.Item eventKey="3">
+      
 
-            <Accordion.Header>What is the process for hiring a caregiver service provider?</Accordion.Header>
-            
-            <Accordion.Body>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-              minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
-            </Accordion.Body>
-
-          </Accordion.Item>
         </Accordion>
 
 

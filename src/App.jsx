@@ -8,8 +8,8 @@ function App(params) {
   return (
     <>
       <Routes>
-        <Route path='/care24' element={<Main_component />} />
-        <Route path='/care24/:userId' element={<Main_component />} />
+        <Route path='/' element={<Main_component />} />
+        <Route path='/:userId' element={<Main_component />} />
       </Routes>
 
     </>

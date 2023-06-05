@@ -46,7 +46,7 @@ const Main_component = () => {
       <How_to_varify_caregiver />
       <AboutUS />
       {/* <Our_Services/> */}
-      <Frequently_Asked_Q />
+      <Frequently_Asked_Q Param={userId}/>
       <Get_in_touch />
       {/* <FooterSection/> */}
       {/* <Checking/> */}

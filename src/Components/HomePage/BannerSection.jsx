@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faThumbsUp } from '@fortawesome/free-solid-svg-icons';
 import 'bootstrap/dist/css/bootstrap.css';
 import care1_overlay from '../../assets/Images/care1_overlay.png'
+import care2_overlay from '../../assets/Images/care2_overlay.jpeg'
 import BannerSection_img from '../../assets/Images/BannerSection_img.png'
 import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
 import axios from 'axios';
@@ -177,8 +178,31 @@ const BannerSection = (props) => {
 
             </div>
             <div className="img_container">
+              
               <div className="image_container_bannerSection">
+
+
+{
+                  (data === null) ?
+                  <Backdrop
+                  sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
+                  open
+                >
+                  <CircularProgress color="inherit" />
+                </Backdrop>
+                    :
+
+                    (data.data.link_name === 'page2' || data.data.link_name === 'page3')?
+                <img src={care2_overlay} alt="care2_img" />
+                    
+                    :
                 <img src={care1_overlay} alt="care1_img" />
+
+
+                }
+              
+
+
 
                 {/* <div class="overlay_bannerSection">
                  <img src={BannerSection_img} alt="bannerSection_img" />

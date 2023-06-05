@@ -40,15 +40,15 @@ const Main_component = () => {
       <BannerSection Param={userId} />
       <Search_Form />
       <BannerSecond />
-      {/* <Clients_have_to_say/> */}
+      <Clients_have_to_say/>
       <Best_Caregivers_Services />
       <Why_choose_caregivers />
       <How_to_varify_caregiver />
       <AboutUS />
-      {/* <Our_Services/> */}
+      <Our_Services/>
       <Frequently_Asked_Q Param={userId}/>
       <Get_in_touch />
-      {/* <FooterSection/> */}
+      <FooterSection/>
       {/* <Checking/> */}
     </>
   )

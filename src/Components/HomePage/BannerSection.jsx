@@ -127,9 +127,22 @@ const BannerSection = (props) => {
               </div>
 
               <div className="care_description_container">
-                <div className="care_description">
-                  Care24 is here to provide you with the <br /> best healthcare services in India.
+
+              {
+                  (data === null) ?
+                    alert('data is loading...')
+                    :
+
+                    <div className="care_description">
+                {(data.data.link_name === 'page1' || data.data.link_name === 'page2' || data.data.link_name === 'page3') ?
+                        data.data.pg_content.pg_content.pg_hdr[0].content
+                        :
+                        null
+                      }
                 </div>
+                }
+
+
               </div>
 
               <div className="buttons_container">

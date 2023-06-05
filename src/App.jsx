@@ -7,6 +7,8 @@ import { Routes, Route } from "react-router-dom";
 function App(params) {
   return (
     <>
+
+    
       <Routes>
         <Route path='/' element={<Main_component />} />
         <Route path='/:userId' element={<Main_component />} />

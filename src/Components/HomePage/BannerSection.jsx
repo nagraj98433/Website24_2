@@ -10,6 +10,9 @@ import BannerSection_img from '../../assets/Images/BannerSection_img.png'
 import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
 import axios from 'axios';
 
+import Backdrop from '@mui/material/Backdrop';
+import CircularProgress from '@mui/material/CircularProgress';
+
 
 
 // Add the desired icons to the library
@@ -17,6 +20,8 @@ library.add(fas);
 
 
 const BannerSection = (props) => {
+  
+
 
 
   // const [Header_title1, setHeader_title1] = useState()
@@ -74,7 +79,12 @@ const BannerSection = (props) => {
               <div className="get_reliable_container mt-4">
                 {
                   (data === null) ?
-                    alert('data is loading...')
+                  <Backdrop
+                  sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
+                  open
+                >
+                  <CircularProgress color="inherit" />
+                </Backdrop>
                     :
 
                     <div className="get_reliable">
@@ -92,7 +102,12 @@ const BannerSection = (props) => {
 
                 {
                   (data === null) ?
-                    alert('data is loading...')
+                  <Backdrop
+                  sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
+                  open
+                >
+                  <CircularProgress color="inherit" />
+                </Backdrop>
                     :
 
                     <div className="Quality">
@@ -111,7 +126,12 @@ const BannerSection = (props) => {
                 {
 
                   (data === null) ?
-                    alert('data is loading...')
+                  <Backdrop
+                  sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
+                  open
+                >
+                  <CircularProgress color="inherit" />
+                </Backdrop>
                     :
 
                     (data.data.link_name === 'page1') ?
@@ -130,7 +150,12 @@ const BannerSection = (props) => {
 
               {
                   (data === null) ?
-                    alert('data is loading...')
+                  <Backdrop
+                  sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
+                  open
+                >
+                  <CircularProgress color="inherit" />
+                </Backdrop>
                     :
 
                     <div className="care_description">

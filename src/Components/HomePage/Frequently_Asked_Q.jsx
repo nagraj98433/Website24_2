@@ -10,6 +10,9 @@ import axios from 'axios';
 
 import Backdrop from '@mui/material/Backdrop';
 import CircularProgress from '@mui/material/CircularProgress';
+import { faGreaterThan } from '@fortawesome/free-solid-svg-icons';
+
+
 
 
 
@@ -72,12 +75,12 @@ const Frequently_Asked_Q = (props) => {
 
             {
               (data === null) ?
-              <Backdrop
-              sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
-              open
-            >
-              <CircularProgress color="inherit" />
-            </Backdrop>
+                <Backdrop
+                  sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
+                  open
+                >
+                  <CircularProgress color="inherit" />
+                </Backdrop>
                 :
                 <Accordion.Header>
 
@@ -96,36 +99,36 @@ const Frequently_Asked_Q = (props) => {
 
             {
               (data === null) ?
-              <Backdrop
-              sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
-              open
-            >
-              <CircularProgress color="inherit" />
-            </Backdrop>
+                <Backdrop
+                  sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
+                  open
+                >
+                  <CircularProgress color="inherit" />
+                </Backdrop>
                 :
 
                 <Accordion.Body>
-                {(data.data.link_name === 'page1' || data.data.link_name === 'page2' || data.data.link_name === 'page3') ?
+                  {(data.data.link_name === 'page1' || data.data.link_name === 'page2' || data.data.link_name === 'page3') ?
                     data.data.pg_content.pg_content.pg_faq[0].answer
                     :
                     null
                   }
-              </Accordion.Body>
+                </Accordion.Body>
 
             }
-           
+
 
           </Accordion.Item>
           <Accordion.Item eventKey="1">
 
-          {
+            {
               (data === null) ?
-              <Backdrop
-              sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
-              open
-            >
-              <CircularProgress color="inherit" />
-            </Backdrop>
+                <Backdrop
+                  sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
+                  open
+                >
+                  <CircularProgress color="inherit" />
+                </Backdrop>
                 :
                 <Accordion.Header>
 
@@ -138,42 +141,42 @@ const Frequently_Asked_Q = (props) => {
 
 
             }
-            
+
             {
               (data === null) ?
-              <Backdrop
-              sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
-              open
-            >
-              <CircularProgress color="inherit" />
-            </Backdrop>
+                <Backdrop
+                  sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
+                  open
+                >
+                  <CircularProgress color="inherit" />
+                </Backdrop>
                 :
 
                 <Accordion.Body>
-                {(data.data.link_name === 'page1' || data.data.link_name === 'page2' || data.data.link_name === 'page3') ?
+                  {(data.data.link_name === 'page1' || data.data.link_name === 'page2' || data.data.link_name === 'page3') ?
                     data.data.pg_content.pg_content.pg_faq[1].answer
                     :
                     null
                   }
-              </Accordion.Body>
+                </Accordion.Body>
 
             }
-            
-           
+
+
 
           </Accordion.Item>
           <Accordion.Item eventKey="2">
 
 
-            
-          {
+
+            {
               (data === null) ?
-              <Backdrop
-              sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
-              open
-            >
-              <CircularProgress color="inherit" />
-            </Backdrop>
+                <Backdrop
+                  sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
+                  open
+                >
+                  <CircularProgress color="inherit" />
+                </Backdrop>
                 :
                 <Accordion.Header>
 
@@ -186,31 +189,31 @@ const Frequently_Asked_Q = (props) => {
 
 
             }
-            
+
             {
               (data === null) ?
-              <Backdrop
-              sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
-              open
-            >
-              <CircularProgress color="inherit" />
-            </Backdrop>
+                <Backdrop
+                  sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
+                  open
+                >
+                  <CircularProgress color="inherit" />
+                </Backdrop>
                 :
 
                 <Accordion.Body>
-                {(data.data.link_name === 'page1' || data.data.link_name === 'page2' || data.data.link_name === 'page3') ?
+                  {(data.data.link_name === 'page1' || data.data.link_name === 'page2' || data.data.link_name === 'page3') ?
                     data.data.pg_content.pg_content.pg_faq[2].answer
                     :
                     null
                   }
-              </Accordion.Body>
+                </Accordion.Body>
 
             }
-            
+
 
           </Accordion.Item>
 
-      
+
 
         </Accordion>
 
@@ -219,6 +222,112 @@ const Frequently_Asked_Q = (props) => {
 
 
       </div>
+
+
+      
+
+
+
+
+
+
+      {/* component for 2nd page start */}
+
+      {
+          (data === null) ?
+            <Backdrop
+              sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
+              open
+            >
+              <CircularProgress color="inherit" />
+            </Backdrop>
+            :
+
+            (data.data.link_name === 'page1' ?
+
+            <div className="Max_width80 mt-4 d-none">
+
+            <div className="Resources_for_you">
+              Resources for you
+            </div>
+            
+    
+            <div className="Resources_link_container_flex">
+    
+            <a href="#" className="link_1_container">
+            <div className="Link_container_flex d-flex justify-content-between align-items-center">
+              <div className="link_1"><span className="link1_icon">1</span> Arthritis Foundation</div>
+              <div className="greater_than_icon"><span>  <FontAwesomeIcon icon={faGreaterThan} /></span></div>
+             </div>
+            </a>
+    
+            <a href="#" className="link_1_container">
+            <div className="Link_container_flex d-flex justify-content-between align-items-center">
+              <div className="link_1"><span className="link2_icon">2</span> Centers for Diseases Control and Prevention</div>
+              <div className="greater_than_icon"><span>  <FontAwesomeIcon icon={faGreaterThan} /></span></div>
+    
+             </div>
+            </a>
+    
+            <a href="#" className="link_1_container">
+            <div className="Link_container_flex d-flex justify-content-between align-items-center">
+              <div className="link_1"><span className="link3_icon">3</span> Mayo Clinic</div>
+              <div className="greater_than_icon"><span>  <FontAwesomeIcon icon={faGreaterThan} /></span></div>
+    
+             </div>
+            </a>
+    
+    
+            </div>
+    
+          </div>
+
+              :
+
+              <div className="Max_width80 mt-4">
+
+        <div className="Resources_for_you">
+          Resources for you
+        </div>
+        
+
+        <div className="Resources_link_container_flex">
+
+        <a href="#" className="link_1_container">
+        <div className="Link_container_flex d-flex justify-content-between align-items-center">
+          <div className="link_1"><span className="link1_icon">1</span> Arthritis Foundation</div>
+          <div className="greater_than_icon"><span>  <FontAwesomeIcon icon={faGreaterThan} /></span></div>
+         </div>
+        </a>
+
+        <a href="#" className="link_1_container">
+        <div className="Link_container_flex d-flex justify-content-between align-items-center">
+          <div className="link_1"><span className="link2_icon">2</span> Centers for Diseases Control and Prevention</div>
+          <div className="greater_than_icon"><span>  <FontAwesomeIcon icon={faGreaterThan} /></span></div>
+
+         </div>
+        </a>
+
+        <a href="#" className="link_1_container">
+        <div className="Link_container_flex d-flex justify-content-between align-items-center">
+          <div className="link_1"><span className="link3_icon">3</span> Mayo Clinic</div>
+          <div className="greater_than_icon"><span>  <FontAwesomeIcon icon={faGreaterThan} /></span></div>
+
+         </div>
+        </a>
+
+
+        </div>
+
+      </div>
+
+            )
+        }
+
+
+
+
+      
     </>
   )
 }

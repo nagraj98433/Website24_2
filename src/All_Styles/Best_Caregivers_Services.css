@@ -112,6 +112,10 @@
         flex: none;
     }
 
+    .mt_top_bestC{
+        margin-top: 50px;
+    }
+
 }
 
 
@@ -156,6 +160,10 @@
         flex: none;
     }
 
+    .mt_top_bestC{
+        margin-top: 20px;
+    }
+
 }
 
 @media screen and (min-width:992px) and (max-width:1200px) {
@@ -195,6 +203,10 @@
 
     .stack_on_xm{
         flex: none;
+    }
+
+    .mt_top_bestC{
+        margin-top: 50px;
     }
 
 }
@@ -357,6 +369,10 @@
 
     .stack_on_xm{
         flex: none;
+    }
+
+    .mt_top_bestC{
+        margin-top: 16rem;
     }
 
 }

@@ -14,37 +14,42 @@ import Service_bg from '../../assets/Images/Service_bg.png'
 
 
 
-
-
 // Add the desired icons to the library
 library.add(fas);
 
 
 const Our_Services = () => {
+
+
+
+
   return (
     <>
       <div className="Max_width80 mt-4">
-        <div className="ps-5">
-        <div className="our_services">Our Services</div>
-        <div className="services_discription mt-4">At Care24, we provide personalized home care services tailored to meet the unique needs of each client. Our experienced caregivers are carefully selected, screened, and trained to ensure high-quality care. We offer flexible scheduling options and strive to make the process of inviting a caregiver into your home as easy as possible.</div>
+
+        <div className="our_services_header_container">
+          <div className="our_services">Our Services</div>
+          <div className="services_discription mt-4">At Care24, we provide personalized home care services tailored to meet the unique needs of each client. Our experienced caregivers are carefully selected, screened, and trained to ensure high-quality care. We offer flexible scheduling options and strive to make the process of inviting a caregiver into your home as easy as possible.</div>
         </div>
 
-        <div class="grid-container_our_services">
-        <div class="grid-item_our_services">
-          <div class="image_container_our_services">
+        <div className="service_cards_container_flex">
+
+
+          <div className="service_card_container">
+            <div class="image_container_our_services">
               <img src={Service_bg} alt="Service_bg" />
 
               <div class="overlay_our_services_icon">
                 <img src={attendant} alt="attendant_icon" />
               </div>
               <div class="overlay_our_services">
-               <div className="our_services_heading">Attendant Services</div>
-               <div className="our_services_description2">Our physiotherapists are experienced in providing complete range of physiotherapy services</div>
+                <div className="our_services_heading">Attendant Services</div>
+                <div className="our_services_description2">Our physiotherapists are experienced in providing complete range of physiotherapy services</div>
               </div>
             </div>
           </div>
 
-          <div class="grid-item_our_services">
+          <div className="service_card_container">
           <div class="image_container_our_services">
               <img src={Service_bg} alt="Service_bg" />
 
@@ -57,8 +62,8 @@ const Our_Services = () => {
               </div>
             </div>
           </div>
-          
-          <div class="grid-item_our_services">
+
+          <div className="service_card_container">
           <div class="image_container_our_services">
               <img src={Service_bg} alt="Service_bg" />
 
@@ -72,8 +77,7 @@ const Our_Services = () => {
             </div>
           </div>
 
-
-          <div class="grid-item_our_services">
+          <div className="service_card_container">
           <div class="image_container_our_services">
               <img src={Service_bg} alt="Service_bg" />
 
@@ -87,7 +91,14 @@ const Our_Services = () => {
             </div>
           </div>
 
+      
+
         </div>
+
+
+
+
+
 
 
       </div>

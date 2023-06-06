@@ -49,6 +49,67 @@
 }
 
 
+/* css for 2nd page start */
+
+.Resources_for_you{
+    font-family: Source Serif Pro;
+font-size: 36px;
+font-weight: 600;
+line-height: 45px;
+letter-spacing: 0em;
+text-align: left;
+color: #0C2F62;
+margin: 20px 0;
+
+}
+
+.link_1{
+    font-family: Source Serif Pro;
+font-size: 22px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+color: #383838;
+}
+
+.Link_container_flex{
+    background: #F5F5F5;
+    border-radius: 4px;
+    padding: 6px 24px 6px 0;
+}
+
+.link_1_container{
+    text-decoration: none;
+    margin: 15px 0;
+    display: block;
+}
+.greater_than_icon span{
+    font-size: 11px;
+    color: #939393;
+}
+
+.link1_icon{
+    background: #C8A0F1;
+    padding: 0px 7px;
+    border-radius: 31px;
+}
+
+.link2_icon{
+    background: #BACE33;
+    padding: 0px 7px;
+    border-radius: 31px;
+}
+
+.link3_icon{
+    background: #E69700;
+    padding: 0px 7px;
+    border-radius: 31px;
+}
+
+/* css for 2nd page end */
+
+
 /* Media queries start */
 
 @media screen and (min-width:300px) and (max-width:576px) {

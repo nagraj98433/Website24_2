@@ -49,12 +49,12 @@ const BannerSection = (props) => {
 
   // console.log(props.Param)
 
-  if (data === null) {
-    console.log('data is loading...')
-  }
-  else {
-    console.log(data.data.link_name)
-  }
+  // if (data === null) {
+  //   console.log('data is loading...')
+  // }
+  // else {
+  //   console.log(data.data.link_name)
+  // }
   // console.log(data.data.link_name)
   // console.log(data.data.pg_content.pg_content.pg_hdr[0].title.title_1)
   // console.log(data.data.pg_content.pg_content.pg_hdr[0].content)

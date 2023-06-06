@@ -38,7 +38,7 @@ const Main_component = () => {
     <>
       <TopHeader />
       <BannerSection Param={userId} />
-      <Search_Form />
+      {/* <Search_Form /> */}
       <BannerSecond />
       <Clients_have_to_say/>
       <Best_Caregivers_Services />

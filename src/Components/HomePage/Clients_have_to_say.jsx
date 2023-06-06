@@ -46,7 +46,7 @@ const Clients_have_to_say = () => {
         <div className="clients_cards_main_container mt-5">
           <div className="clients_cards_flex_container">
 
-          <div>
+          <div className="mx-3">
           <div class="image-container_clients_have_to_say">
                 <img src={Testimonial_Blob} alt="Testimonial_Blob" />
                 <div class="overlay_clients_have_to_say">
@@ -67,7 +67,7 @@ const Clients_have_to_say = () => {
                 </div>
               </div>
           </div>
-          <div>
+          <div className="mx-3">
           <div class="image-container_clients_have_to_say">
                 <img src={Testimonial_Blob} alt="Testimonial_Blob" />
                 <div class="overlay_clients_have_to_say">
@@ -88,7 +88,7 @@ const Clients_have_to_say = () => {
                 </div>
               </div>
           </div>
-          <div>
+          <div className="Third_card mx-3" >
           <div class="image-container_clients_have_to_say">
                 <img src={Testimonial_Blob} alt="Testimonial_Blob" />
                 <div class="overlay_clients_have_to_say">
@@ -111,8 +111,41 @@ const Clients_have_to_say = () => {
           </div>
 
           </div>
+
+
+          <div className="Third_card1">
+          <div className="mx-3 d-flex mt-5 justify-content-center">
+          <div class="image-container_clients_have_to_say">
+                <img src={Testimonial_Blob} alt="Testimonial_Blob" />
+                <div class="overlay_clients_have_to_say">
+                  <div className="clients_have_to_say_content">Needed an attendant for a week for post-surgical assistance (ward boy type work). The person allocated was punctual, polite, and generally did the job well. Quite happy with the services provided.</div>
+                </div>
+
+                <div class="overlay_clients_have_to_say_img">
+                  <img src={client_1} alt="client-1" />
+                </div>
+
+                <div class="overlay_clients_have_to_say_icon">
+                  <img src={qout1} alt="qout1" />
+                </div>
+
+                <div class="overlay_clients_have_to_say_name">
+                  <div className="client_name">Swati Saxena</div>
+                  <div className="client_location">Mumbai</div>
+                </div>
+              </div>
+          </div>
+          </div>
+
+
+
+
+
+
 
         </div>
+
+
 
       </div>
     </>

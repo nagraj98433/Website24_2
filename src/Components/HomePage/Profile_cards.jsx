@@ -33,7 +33,7 @@ const Profile_cards = (props) => {
                      </div>
                     </div>
                     <div className="col-md-8">
-                      <div className="card-body">
+                      <div className="card-body my_body">
                       <div className="card_details_container">
                     <div className="name_rating_container d-flex justify-content-between">
                       <div className="name">{props.cg_name}</div>

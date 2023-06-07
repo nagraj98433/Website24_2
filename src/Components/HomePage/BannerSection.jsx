@@ -89,7 +89,7 @@ const BannerSection = (props) => {
                     :
 
                     <div className="get_reliable">
-                      {(data.data.link_name === 'page1' || data.data.link_name === 'page2' || data.data.link_name === 'page3') ?
+                      {(data.data.link_name === 'page1' || data.data.link_name === 'page2' || data.data.link_name === 'page3'  || data.data.link_name === 'page4') ?
                         data.data.pg_content.pg_content.pg_hdr[0].title.title_1
                         :
                         null
@@ -112,7 +112,7 @@ const BannerSection = (props) => {
                     :
 
                     <div className="Quality">
-                      {(data.data.link_name === 'page1' || data.data.link_name === 'page2' || data.data.link_name === 'page3') ?
+                      {(data.data.link_name === 'page1' || data.data.link_name === 'page2' || data.data.link_name === 'page3' || data.data.link_name === 'page4') ?
                         data.data.pg_content.pg_content.pg_hdr[0].title.title_2
                         :
                         null
@@ -160,7 +160,7 @@ const BannerSection = (props) => {
                     :
 
                     <div className="care_description">
-                {(data.data.link_name === 'page1' || data.data.link_name === 'page2' || data.data.link_name === 'page3') ?
+                {(data.data.link_name === 'page1' || data.data.link_name === 'page2' || data.data.link_name === 'page3' || data.data.link_name === 'page4') ?
                         data.data.pg_content.pg_content.pg_hdr[0].content
                         :
                         null

@@ -21,7 +21,7 @@ const Main_component = () => {
 
 
 
-  if (userId !== undefined && userId === "page1" || userId === 'page2' || userId === "page3") {
+  if (userId !== undefined && userId === "page1" || userId === 'page2' || userId === "page3" || userId === "page4") {
     userId
 
   }

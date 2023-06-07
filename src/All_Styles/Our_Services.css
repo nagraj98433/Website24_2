@@ -16,7 +16,7 @@
     letter-spacing: 0em;
     text-align: left;
     color: #565656;
-    padding-right: 268px;
+    width: 912px;
 }
 
 .Service_name {
@@ -183,70 +183,3 @@
     color: #565656;
     width: 225px;
 }
-
-
-
-
-
-/* media queris start */
-
-@media screen and (min-width:300px) and (max-width:576px) {
-    .service_cards_container_flex{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .our_services {
-        font-family: Source Serif Pro;
-        font-size: 20px;
-        font-weight: 600;
-        line-height: 25px;
-        letter-spacing: 0em;
-        text-align: left;
-        color: #0C2F62;
-    }
-
-    .services_discription {
-        font-family: Source Sans Pro;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 28px;
-        letter-spacing: 0em;
-        text-align: left;
-        color: #565656;
-        padding-right: 0px;
-    }
-    
-}
-
-
-@media screen and (min-width:450px) and (max-width:576px) {
-    .service_cards_container_flex{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .our_services {
-        font-family: Source Serif Pro;
-        font-size: 20px;
-        font-weight: 600;
-        line-height: 25px;
-        letter-spacing: 0em;
-        text-align: left;
-        color: #0C2F62;
-    }
-
-    .services_discription {
-        font-family: Source Sans Pro;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 28px;
-        letter-spacing: 0em;
-        text-align: left;
-        color: #565656;
-        padding-right: 0px;
-    }
-    
-    
-}
-/* media queris end */

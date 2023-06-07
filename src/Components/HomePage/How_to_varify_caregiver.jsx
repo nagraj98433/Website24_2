@@ -91,10 +91,10 @@ const How_to_varify_caregiver = (props) => {
             <div className="verify_caregiver_container">
             <div className="caregiver_verify_container">
               <div className="verify_content">
-                How to verify Caregiver services?
+               {data.data.pg_content.pg_content.pg_center[3].title}
               </div>
               <div className="verify_discription">
-                We understand that the safety and security of your loved one is of the utmost importance. That's why we have a rigorous vetting process for all of our caregiver service providers. We conduct background checks, interviews, and reference checks to ensure that only the best professionals are part of our team.
+              {data.data.pg_content.pg_content.pg_center[3].content}
               </div>
             </div>
             <div className="verify_caregiver_overlay_container for_desktop_varify">
@@ -121,13 +121,13 @@ const How_to_varify_caregiver = (props) => {
 
               <div className="Why_choose_caregivers__content_container3">
           <div className="Why_choose_caregivers__content_heading2">
-            Medication and Medical Treatment
+          {data.data.pg_content.pg_content.pg_center[3].title}
           </div>
           <div className="Why_choose_caregivers__Description2 mt-2">
-            While home remedies and self-care can be effective for managing arthritis symptoms, some patients may require medication or medical treatment. There are several over-the-counter and prescription medications available to help reduce pain and inflammation in the joints. Additionally, some patients may benefit from physical therapy, occupational therapy, or surgery. It's important to work with a healthcare provider to develop an individualized treatment plan that addresses your specific needs and symptoms.
+          {data.data.pg_content.pg_content.pg_center[3].content.slice(0,509)}
 
             <div className="mt-5">
-              Arthritis is a challenging condition that requires careful management to maintain quality of life. However, by incorporating home remedies, taking proper care at home, and working with a healthcare provider, arthritis patients can minimize their symptoms and lead fulfilling lives. Remember, arthritis is a chronic condition that requires ongoing attention and care. By taking a proactive approach to managing your symptoms, you can live a full and active life.
+            {data.data.pg_content.pg_content.pg_center[3].content.slice(510,1000)}
             </div>
           </div>
         </div>

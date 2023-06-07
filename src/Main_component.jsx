@@ -38,7 +38,7 @@ const Main_component = () => {
     <>
       <TopHeader />
       <BannerSection Param={userId} />
-      <Search_Form />
+      {/* <Search_Form /> */}
       <BannerSecond />
       <Clients_have_to_say/>
       <Best_Caregivers_Services Param={userId}/>
@@ -46,9 +46,9 @@ const Main_component = () => {
       <How_to_varify_caregiver Param={userId}/>
       <AboutUS />
       {/* <Our_Services/> */}
-      <Frequently_Asked_Q Param={userId}/>
+      <Frequently_Asked_Q Param={userId} />
       <Get_in_touch />
-      <FooterSection/>
+      {/* <FooterSection/> */}
       {/* <Checking/> */}
     </>
   )

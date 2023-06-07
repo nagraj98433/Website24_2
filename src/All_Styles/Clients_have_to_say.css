@@ -957,7 +957,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+    }
 
     .client_name {
         font-family: Source Serif Pro;
@@ -986,35 +986,10 @@
         display: block;
     }
 
+
 }
 
-  .client_name {
-    font-family: Source Serif Pro;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 28px;
-    letter-spacing: 0px;
-    text-align: left;
-    color: #a080c1;
-  }
-
-  .client_location {
-    font-family: Source Sans Pro;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 31px;
-    letter-spacing: 0px;
-    text-align: left;
-    color: #565656;
-  }
-
-  .Third_card1 {
-    display: none;
-  }
-
-  .Third_card {
-    display: block;
-  }
+  
 
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {

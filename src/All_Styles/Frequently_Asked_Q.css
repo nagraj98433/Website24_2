@@ -163,6 +163,21 @@ color: #383838;
         border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);
         margin-bottom: 25px;
     }
+
+    .Link_container_flex {
+        background: #F5F5F5;
+        border-radius: 4px;
+        padding: 6px 7px 6px 0;
+    }
+    .link_1 {
+        font-family: Source Serif Pro;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #383838;
+    }
 }
 
 

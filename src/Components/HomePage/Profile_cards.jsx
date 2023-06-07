@@ -37,15 +37,15 @@ const Profile_cards = (props) => {
                       <div className="card_details_container">
                     <div className="name_rating_container d-flex justify-content-between">
                       <div className="name">{props.cg_name}</div>
-                      <div className="ratinng_star"><span className="star_rating_icon"> <FontAwesomeIcon icon="star" /></span> 4.0</div>
+                      <div className="ratinng_star"><span className="star_rating_icon"> <FontAwesomeIcon icon="star" /></span> {props.Rating}</div>
                     </div>
                     <div className="identity_age mb-2">
-                    Nurse, 29
+                    Nurse, {props.Age}
                     </div>
                     <div className="education mb-2">
-                    <span className="education_icon"> <FontAwesomeIcon icon={faGraduationCap} /></span> BS in Nursing (BSN)
+                    <span className="education_icon"> <FontAwesomeIcon icon={faGraduationCap} /></span> {props.Education}
                     </div>
-                    <div className="experience mb-2"> <span className="experience_icon"> <FontAwesomeIcon icon={faShoppingBag} /></span> 3 years in clinical nursing </div>
+                    <div className="experience mb-2"> <span className="experience_icon"> <FontAwesomeIcon icon={faShoppingBag} /></span> {props.Experience} years in clinical nursing </div>
                     <div className="enquire_btn_container text-start">
                     <button type="button" className="btn btn-primary enquire_btn w-100">Enquire Now</button>
                     </div>
@@ -74,15 +74,15 @@ const Profile_cards = (props) => {
                     <div className="card_details_container">
                     <div className="name_rating_container d-flex justify-content-between">
                       <div className="name">{props.cg_name}</div>
-                      <div className="ratinng_star"><span className="star_rating_icon"> <FontAwesomeIcon icon="star" /></span> 4.0</div>
+                      <div className="ratinng_star"><span className="star_rating_icon"> <FontAwesomeIcon icon="star" /></span> {props.Rating}</div>
                     </div>
                     <div className="identity_age mb-2">
-                    Nurse, 29
+                    Nurse, {props.Age}
                     </div>
                     <div className="education mb-2">
-                    <span className="education_icon"> <FontAwesomeIcon icon={faGraduationCap} /></span> BS in Nursing (BSN)
+                    <span className="education_icon"> <FontAwesomeIcon icon={faGraduationCap} /></span> {props.Education}
                     </div>
-                    <div className="experience mb-2"> <span className="experience_icon"> <FontAwesomeIcon icon={faShoppingBag} /></span> 3 years in clinical nursing </div>
+                    <div className="experience mb-2"> <span className="experience_icon"> <FontAwesomeIcon icon={faShoppingBag} /></span> {props.Experience} years in clinical nursing </div>
                     <div className="enquire_btn_container text-start">
                     <button type="button" className="btn btn-primary enquire_btn w-100">Enquire Now</button>
                     </div>

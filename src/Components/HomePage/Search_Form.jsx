@@ -132,7 +132,8 @@ const Search_Form = () => {
               {cgsProfile.map((value, ind) => (
 
                 <Profile_cards cg_name={value.cg_name} profile_pc={value.profile_pic} price={value.price_package} key={ind}
-                  condition_Handled={value.condition_handled}
+                  condition_Handled={value.condition_handled} Education={value.education} Experience={value.years_of_experience}
+                  Rating={value.cg_rating} Age={value.cg_age}
                 />
 
               ))}

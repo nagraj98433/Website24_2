@@ -1008,6 +1008,9 @@
     .Third_card1 {
         display: none;
     }
+    .Third_card {
+        display: block;
+    }
 
 }
 

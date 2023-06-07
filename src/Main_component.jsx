@@ -41,7 +41,7 @@ const Main_component = () => {
       <Search_Form />
       <BannerSecond />
       <Clients_have_to_say/>
-      <Best_Caregivers_Services />
+      <Best_Caregivers_Services Param={userId}/>
       <Why_choose_caregivers Param={userId}/>
       <How_to_varify_caregiver Param={userId}/>
       <AboutUS />

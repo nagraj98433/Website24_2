@@ -48,7 +48,7 @@ const Main_component = () => {
       {/* <Our_Services/> */}
       <Frequently_Asked_Q Param={userId} />
       <Get_in_touch />
-      {/* <FooterSection/> */}
+      <FooterSection/>
       {/* <Checking/> */}
     </>
   )

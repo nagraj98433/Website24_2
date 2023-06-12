@@ -79,11 +79,11 @@ const Clients_have_to_say = () => {
                 </div>
 
                 <div class="overlay_clients_have_to_say_icon">
-                  <img src={qout1} alt="qout1" />
+                  <img src={qout2} alt="qout1" />
                 </div>
 
                 <div class="overlay_clients_have_to_say_name">
-                  <div className="client_name">Swati Saxena</div>
+                  <div className="client_name" style={{color:'#A6B72E'}}>Swati Saxena</div>
                   <div className="client_location">Mumbai</div>
                 </div>
               </div>
@@ -100,11 +100,11 @@ const Clients_have_to_say = () => {
                 </div>
 
                 <div class="overlay_clients_have_to_say_icon">
-                  <img src={qout1} alt="qout1" />
+                  <img src={qout3} alt="qout1" />
                 </div>
 
                 <div class="overlay_clients_have_to_say_name">
-                  <div className="client_name">Swati Saxena</div>
+                  <div className="client_name" style={{color:'#CC8600'}}>Swati Saxena</div>
                   <div className="client_location">Mumbai</div>
                 </div>
               </div>

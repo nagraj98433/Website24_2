@@ -12,6 +12,8 @@ import Our_Services from "./Components/HomePage/Our_Services";
 import Frequently_Asked_Q from "./Components/HomePage/Frequently_Asked_Q";
 import Get_in_touch from "./Components/HomePage/Get_in_touch";
 import FooterSection from "./Components/HomePage/FooterSection";
+import Features from "./Components/HomePage/Features";
+import Clients_reviews from "./Components/HomePage/Clients_reviews";
 import Checking from "./Components/HomePage/Checking";
 import { useParams } from 'react-router-dom';
 
@@ -38,8 +40,10 @@ const Main_component = () => {
     <>
       <TopHeader />
       <BannerSection Param={userId} />
+      {/* <Features/> */}
       <Search_Form />
       <BannerSecond />
+      {/* <Clients_reviews/> */}
       <Clients_have_to_say/>
       <Best_Caregivers_Services Param={userId}/>
       <Why_choose_caregivers Param={userId}/>

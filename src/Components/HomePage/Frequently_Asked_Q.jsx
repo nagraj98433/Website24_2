@@ -243,7 +243,7 @@ const Frequently_Asked_Q = (props) => {
             </Backdrop>
             :
 
-            (data.data.pg_content.pg_name === 'page1' || data.data.pg_content.pg_name === 'page2' ?
+            (data.data.pg_content.pg_name === 'page1' ?
 
             <div className="Max_width80 mt-4 d-none">
 

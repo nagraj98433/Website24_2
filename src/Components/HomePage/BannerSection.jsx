@@ -90,7 +90,8 @@ const BannerSection = (props) => {
 
                     <div className="get_reliable" id={(data.data.pg_content.pg_name==='page2'? 'get_reliable2': "get_reliable")}>
                       {(data.data.pg_content.pg_name === 'page1' || data.data.pg_content.pg_name === 'page2') ?
-                        data.data.pg_content.pg_content.pg_hdr[0].title.title_1
+                       
+                        data?.data?.pg_content?.pg_content?.pg_hdr[0]?.title?.title_1 || data?.data?.pg_content?.pg_content?.pg_hdr[0]?.title
                         :
                         null
                       }

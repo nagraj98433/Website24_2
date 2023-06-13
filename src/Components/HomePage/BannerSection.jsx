@@ -88,7 +88,7 @@ const BannerSection = (props) => {
                 </Backdrop>
                     :
 
-                    <div className="get_reliable">
+                    <div className="get_reliable" id={(data.data.pg_content.pg_name==='page2'? 'get_reliable2': "get_reliable")}>
                       {(data.data.link_name === 'page1' || data.data.link_name === 'page2' || data.data.link_name === 'page3'  || data.data.link_name === 'page4') ?
                         data.data.pg_content.pg_content.pg_hdr[0].title.title_1
                         :
@@ -96,6 +96,8 @@ const BannerSection = (props) => {
                       }
 
                     </div>
+
+
                 }
               </div>
 

@@ -311,6 +311,16 @@ html {
     html {
         font-size: 62.5%;
     }
+
+    #get_reliable2 {
+        font-family: Source Serif Pro;
+        font-size: 3rem;
+        font-weight: 400;
+        line-height: 4.0rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #021746;
+    }
 }
 
 
@@ -396,6 +406,16 @@ html {
     }
     .container{
         max-width: 100%;
+    }
+
+    #get_reliable2 {
+        font-family: Source Serif Pro;
+        font-size: 3.5rem;
+        font-weight: 400;
+        line-height: 6.0rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #021746;
     }
 }
 
@@ -504,6 +524,15 @@ html {
     }
     .container{
         max-width: 100%;
+    }
+    #get_reliable2 {
+        font-family: Source Serif Pro;
+        font-size: 4.5rem;
+        font-weight: 400;
+        line-height: 6.0rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #021746;
     }
 }
 

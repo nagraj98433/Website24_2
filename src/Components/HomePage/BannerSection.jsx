@@ -194,7 +194,7 @@ const BannerSection = (props) => {
                 </Backdrop>
                     :
 
-                    (data.data.pg_content.pg_name === 'page1' || data.data.pg_content.pg_name === 'page2')?
+                    (data.data.pg_content.pg_name === 'page1')?
                 
                     <img src={care1_overlay} alt="care1_img" />
                     :

@@ -6,6 +6,7 @@
     letter-spacing: 0em;
     text-align: left;
     color: #0C2F62;
+    padding-left: 22px;
 }
 
 .services_discription {
@@ -17,6 +18,7 @@
     text-align: left;
     color: #565656;
     width: 912px;
+    padding-left: 22px;
 }
 
 .Service_name {

@@ -75,7 +75,7 @@ const Why_choose_caregivers = (props) => {
             </Backdrop>
             :
 
-            (data.data.link_name === 'page1' ?
+            (data.data.pg_content.pg_name === 'page1' || data.data.pg_content.pg_name === 'page2' ?
 
               <div className="Why_choose_caregivers__content_container">
                 <div className="Why_choose_caregivers__content_heading">
@@ -118,7 +118,7 @@ const Why_choose_caregivers = (props) => {
             </Backdrop>
             :
 
-            (data.data.link_name === 'page1' ?
+            (data.data.pg_content.pg_name === 'page1' || data.data.pg_content.pg_name === 'page2'?
 
             <div className="Why_choose_caregivers__content_container2">
             <div className="Why_choose_caregivers__content_heading2">

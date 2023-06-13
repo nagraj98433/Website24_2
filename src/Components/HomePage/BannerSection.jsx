@@ -89,7 +89,7 @@ const BannerSection = (props) => {
                     :
 
                     <div className="get_reliable" id={(data.data.pg_content.pg_name==='page2'? 'get_reliable2': "get_reliable")}>
-                      {(data.data.link_name === 'page1' || data.data.link_name === 'page2' || data.data.link_name === 'page3'  || data.data.link_name === 'page4') ?
+                      {(data.data.pg_content.pg_name === 'page1' || data.data.pg_content.pg_name === 'page2') ?
                         data.data.pg_content.pg_content.pg_hdr[0].title.title_1
                         :
                         null
@@ -114,7 +114,7 @@ const BannerSection = (props) => {
                     :
 
                     <div className="Quality">
-                      {(data.data.link_name === 'page1' || data.data.link_name === 'page2' || data.data.link_name === 'page3' || data.data.link_name === 'page4') ?
+                      {(data.data.pg_content.pg_name === 'page1' || data.data.pg_content.pg_name === 'page2') ?
                         data.data.pg_content.pg_content.pg_hdr[0].title.title_2
                         :
                         null
@@ -137,7 +137,7 @@ const BannerSection = (props) => {
                 </Backdrop>
                     :
 
-                    (data.data.link_name === 'page1') ?
+                    (data.data.pg_content.pg_name === 'page1' || data.data.pg_content.pg_name === 'page2') ?
                       <div className="doorstep">
                         at your doorstep
                       </div>
@@ -162,7 +162,7 @@ const BannerSection = (props) => {
                     :
 
                     <div className="care_description">
-                {(data.data.link_name === 'page1' || data.data.link_name === 'page2' || data.data.link_name === 'page3' || data.data.link_name === 'page4') ?
+                {(data.data.pg_content.pg_name === 'page1' || data.data.pg_content.pg_name === 'page2') ?
                         data.data.pg_content.pg_content.pg_hdr[0].content
                         :
                         null
@@ -194,11 +194,12 @@ const BannerSection = (props) => {
                 </Backdrop>
                     :
 
-                    (data.data.link_name === 'page2' || data.data.link_name === 'page3')?
-                <img src={care2_overlay} alt="care2_img" />
-                    
+                    (data.data.pg_content.pg_name === 'page1' || data.data.pg_content.pg_name === 'page2')?
+                
+                    <img src={care1_overlay} alt="care1_img" />
                     :
-                <img src={care1_overlay} alt="care1_img" />
+            
+                <img src={care2_overlay} alt="care2_img" />
 
 
                 }

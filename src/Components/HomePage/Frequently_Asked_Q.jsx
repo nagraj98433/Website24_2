@@ -48,13 +48,13 @@ const Frequently_Asked_Q = (props) => {
 
   // console.log(props.Param)
 
-  if (data === null) {
-    console.log('data is loading...')
-  }
-  else {
-    console.log(data.data.link_name)
-    console.log(data.data.pg_content.pg_content.pg_faq[0].question)
-  }
+  // if (data === null) {
+  //   console.log('data is loading...')
+  // }
+  // else {
+  //   console.log(data.data.link_name)
+  //   console.log(data.data.pg_content.pg_content.pg_faq[0].question)
+  // }
   // console.log(data.data.link_name)
   // console.log(data.data.pg_content.pg_content.pg_hdr[0].title.title_1)
 
@@ -84,7 +84,7 @@ const Frequently_Asked_Q = (props) => {
                 :
                 <Accordion.Header>
 
-                  {(data.data.link_name === 'page1' || data.data.link_name === 'page2' || data.data.link_name === 'page3') ?
+                  {(data.data.pg_content.pg_name === 'page1' || data.data.pg_content.pg_name === 'page2') ?
                     data.data.pg_content.pg_content.pg_faq[0].question
                     :
                     null
@@ -108,7 +108,7 @@ const Frequently_Asked_Q = (props) => {
                 :
 
                 <Accordion.Body>
-                  {(data.data.link_name === 'page1' || data.data.link_name === 'page2' || data.data.link_name === 'page3') ?
+                  {(data.data.pg_content.pg_name === 'page1' || data.data.pg_content.pg_name === 'page2') ?
                     data.data.pg_content.pg_content.pg_faq[0].answer
                     :
                     null
@@ -132,7 +132,7 @@ const Frequently_Asked_Q = (props) => {
                 :
                 <Accordion.Header>
 
-                  {(data.data.link_name === 'page1' || data.data.link_name === 'page2' || data.data.link_name === 'page3') ?
+                  {(data.data.pg_content.pg_name === 'page1' || data.data.pg_content.pg_name === 'page2') ?
                     data.data.pg_content.pg_content.pg_faq[1].question
                     :
                     null
@@ -153,7 +153,7 @@ const Frequently_Asked_Q = (props) => {
                 :
 
                 <Accordion.Body>
-                  {(data.data.link_name === 'page1' || data.data.link_name === 'page2' || data.data.link_name === 'page3') ?
+                  {(data.data.pg_content.pg_name === 'page1' || data.data.pg_content.pg_name === 'page2') ?
                     data.data.pg_content.pg_content.pg_faq[1].answer
                     :
                     null
@@ -180,7 +180,7 @@ const Frequently_Asked_Q = (props) => {
                 :
                 <Accordion.Header>
 
-                  {(data.data.link_name === 'page1' || data.data.link_name === 'page2' || data.data.link_name === 'page3') ?
+                  {(data.data.pg_content.pg_name === 'page1' || data.data.pg_content.pg_name === 'page2') ?
                     data.data.pg_content.pg_content.pg_faq[2].question
                     :
                     null
@@ -201,7 +201,7 @@ const Frequently_Asked_Q = (props) => {
                 :
 
                 <Accordion.Body>
-                  {(data.data.link_name === 'page1' || data.data.link_name === 'page2' || data.data.link_name === 'page3') ?
+                  {(data.data.pg_content.pg_name === 'page1' || data.data.pg_content.pg_name === 'page2') ?
                     data.data.pg_content.pg_content.pg_faq[2].answer
                     :
                     null
@@ -243,7 +243,7 @@ const Frequently_Asked_Q = (props) => {
             </Backdrop>
             :
 
-            (data.data.link_name === 'page1' ?
+            (data.data.pg_content.pg_name === 'page1' || data.data.pg_content.pg_name === 'page2' ?
 
             <div className="Max_width80 mt-4 d-none">
 

@@ -52,12 +52,12 @@ const How_to_varify_caregiver = (props) => {
 
   // console.log(props.Param)
 
-  if (data === null) {
-    console.log('data is loading...')
-  }
-  else {
-    console.log(data.data.link_name)
-  }
+  // if (data === null) {
+  //   console.log('data is loading...')
+  // }
+  // else {
+  //   console.log(data.data.link_name)
+  // }
   // console.log(data.data.link_name)
   // console.log(data.data.pg_content.pg_content.pg_hdr[0].title.title_1)
   // console.log(data.data.pg_content.pg_content.pg_hdr[0].content)
@@ -86,7 +86,7 @@ const How_to_varify_caregiver = (props) => {
             </Backdrop>
             :
 
-            (data.data.link_name === 'page1' ?
+            (data.data.pg_content.pg_name === 'page1' || data.data.pg_content.pg_name === 'page2'?
 
             <div className="verify_caregiver_container">
             <div className="caregiver_verify_container">
@@ -135,18 +135,6 @@ const How_to_varify_caregiver = (props) => {
 
             )
         }
-
-
-
-
-
-
-
-
-
-        
-
-
 
 
 

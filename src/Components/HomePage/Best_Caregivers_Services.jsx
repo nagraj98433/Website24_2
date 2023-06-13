@@ -76,7 +76,7 @@ const Best_Caregivers_Services = (props) => {
                     :
 
                     
-                      (data.data.link_name === 'page1') ?
+                      (data.data.pg_content.pg_name === 'page1' || data.data.pg_content.pg_name === 'page2') ?
                         <>
                         <div className="Best_care">{data.data.pg_content.pg_content.pg_center[0].title.title_1} <br /><span className="Best_care_part">{data.data.pg_content.pg_content.pg_center[0].title.title_2}</span></div>
                 <div className="caregiver_description">{data.data.pg_content.pg_content.pg_center[0].content}</div>
@@ -110,7 +110,7 @@ const Best_Caregivers_Services = (props) => {
                     :
 
                     
-                      (data.data.link_name === 'page1' ) ?
+                      (data.data.pg_content.pg_name === 'page1' || data.data.pg_content.pg_name === 'page2' ) ?
                         <>
                        <img src={care3} alt="care3_img" />
                         </>

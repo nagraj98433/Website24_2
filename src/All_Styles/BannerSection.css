@@ -2,6 +2,10 @@ html {
     font-size: 62.5%;
 }
 
+.myMT{
+    margin-top: 47px;
+}
+
 
 .container {
     display: flex;
@@ -81,7 +85,7 @@ html {
 }
 
 .btn {
-    border-radius: 2.6rem !important;
+    border-radius: 6.6rem !important;
     border: none;
 }
 
@@ -676,7 +680,7 @@ html {
     }
     .banner_section_content {
         font-family: Source Sans Pro;
-        font-size: 1.9vw;
+        font-size: 1.5vw;
         font-weight: 400;
         line-height: 3.2rem;
         letter-spacing: 0em;
@@ -746,7 +750,7 @@ html {
     }
 
     .buttons_container button {
-        font-size: 2.2rem;
+        font-size: 3rem;
     }
 
     .buttons_container{
@@ -795,7 +799,7 @@ html {
     }
     .banner_section_content {
         font-family: Source Sans Pro;
-        font-size: 1.9vw;
+        font-size: 1.5vw;
         font-weight: 400;
         line-height: 3.2rem;
         letter-spacing: 0em;
@@ -815,16 +819,17 @@ html {
     .rating {
         background: #D6FFD2;
         width: 66%;
-        border-radius: 1rem;
+        border-radius: 2rem;
         text-align: center;
         color: #1B5741;
-        padding: 0.5rem 0;
+        padding: 0.9rem 0;
         font-size: 2.6rem;
+        margin-top: 53px;
     }
 
     .Quality {
         font-family: Source Serif Pro;
-        font-size: 8rem;
+        font-size: 7.4rem;
         font-weight: 400;
         line-height: 9.5rem;
         letter-spacing: 0em;
@@ -832,20 +837,22 @@ html {
         color: #007CBA;
     }
     .care_description {
-        font-family: Source Sans Pro;
-        font-size: 4.2rem;
+        font-family: Futura PT;
+        font-size: 3.2rem;
         font-weight: 400;
-        line-height: 5.3rem;
+        line-height: 4rem;
         letter-spacing: 0em;
         text-align: left;
         color: #797979;
         margin-top: 20px;
+        width: 58rem;
     }
+
     .get_reliable {
         font-family: Source Serif Pro;
-        font-size: 8rem;
+        font-size: 5.9rem;
         font-weight: 400;
-        line-height: 9.0rem;
+        line-height: 6.0rem;
         letter-spacing: 0em;
         text-align: left;
         color: #021746;
@@ -854,7 +861,7 @@ html {
 
     .doorstep {
         font-family: Source Serif Pro;
-        font-size: 8rem;
+        font-size: 5.9rem;
         font-style: italic;
         font-weight: 400;
         line-height: 7.6rem;
@@ -864,11 +871,11 @@ html {
     }
 
     .buttons_container button {
-        font-size: 3.2rem;
+        font-size: 3rem;
     }
 
     .buttons_container{
-        margin-top: 45px;
+        margin-top: 33px;
     }
 
 

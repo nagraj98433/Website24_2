@@ -39,10 +39,20 @@ const FooterSection = () => {
                 <div className="my-4">
                   <div className="contact_us">Contact Us</div>
 
-                  <div className="Number_email_section"><span>+91 8069048802</span> <span>support@care24.co.in</span></div>
+                  <div className="Number_email_section"><span>+91 8069048802 |</span> <span className="maito"><a href="mailto:support@care24.co.in">support@care24.co.in</a></span></div>
                 </div>
 
-                <div className="Social_apps_icons"><button> <FontAwesomeIcon icon={faInstagram} /></button> <button><FontAwesomeIcon icon={faFacebook} /></button> <button><FontAwesomeIcon icon={faTwitter} /></button></div>
+                <div className="Social_apps_icons">
+                 <a href="https://www.instagram.com/care24athome/" target="_blank">
+                 <button> <FontAwesomeIcon icon={faInstagram} /></button> 
+                 </a>
+                 <a href="https://www.facebook.com/Care24athome/" target="_blank">
+                  <button><FontAwesomeIcon icon={faFacebook} /></button> 
+                 </a>
+                 <a href="https://twitter.com/care24athome" target="_blank">
+                  <button><FontAwesomeIcon icon={faTwitter} /></button>
+                  </a>
+                  </div>
               </div>
               <div className="footerRight_section">
 
@@ -51,11 +61,21 @@ const FooterSection = () => {
 
                     <div className="footer_Right_content_container">
                       <div className="footer_Right_content_heading1">Company</div>
-                      <div>About Us</div>
-                      <div>Blogs</div>
-                      <div>News</div>
-                      <div>Careers</div>
-                      <div>FAQs</div>
+                      <div className="Links">
+                        <a href="" target="_blank">About Us</a>
+                      </div>
+                      <div className="Links">
+                      <a href="" target="_blank">Blogs</a>
+                        </div>
+                      <div className="Links">
+                        <a href="" target="_blank">News</a>
+                        </div >
+                      <div className="Links">
+                        <a href="" target="_blank">Careers</a>
+                        </div>
+                      <div className="Links">
+                        <a href="" target="_blank">FAQs</a>
+                        </div>
                     </div>
 
                   </div>
@@ -63,13 +83,25 @@ const FooterSection = () => {
 
                     <div className="footer_Right_content_container">
                       <div className="footer_Right_content_heading1">Our Services</div>
-                      <div>Our Caregivers</div>
-                      <div>Attendant Services</div>
-                      <div>Nursing Services</div>
-                      <div>Elderly Care</div>
-                      <div>Doctor At Home</div>
-                      <div>Physiotherapist</div>
-                      <div>Rehabilitation at Home</div>
+                      {/* <div>
+                        <a href="https://care24.co.in/caregivers" target="_blank">
+                        Our Caregivers
+                        </a>
+                        </div> */}
+                      <div className="Links">
+                        <a href="https://care24.co.in/attendant/" target="_blank">Attendant Services</a>
+                      </div>
+                      <div className="Links">
+                        <a href="https://care24.co.in/nursing/" target="_blank">Nursing Services</a>
+                        </div>
+                      <div className="Links"><a href="https://care24.co.in/elder-care/" target="_blank">Elderly Care</a>
+                      </div>
+                      <div className="Links"><a href="https://care24.co.in/cm/doctor-at-home/" target="_blank">Doctor At Home</a>
+                      </div>
+                      <div className="Links"><a href="https://care24.co.in/physiotherapy/" target="_blank">Physiotherapist</a>
+                      </div>
+                      <div className="Links"><a href="https://care24.co.in/rehabilitation/" target="_blank">Rehabilitation at Home</a>
+                      </div>
                     </div>
 
                   </div>
@@ -106,9 +138,15 @@ const FooterSection = () => {
 
                     <div className="footer_Right_content_container">
                       <div className="footer_Right_content_heading1">Helpful Links</div>
-                      <div>Terms & Conditions</div>
-                      <div>Privacy Policy</div>
-                      <div>Payment Policy</div>
+                      <div className="Links">
+                        <a href="https://care24.co.in/company/terms-conditions/" target="_blank">Terms & Conditions</a>
+                        </div>
+                      <div className="Links">
+                        <a href="https://care24.co.in/company/privacy/" target="_blank">Privacy Policy</a>
+                        </div>
+                      <div className="Links">
+                        <a href="https://care24.co.in/company/payment-policy/" target="_blank">Payment Policy</a>
+                        </div>
                     </div>
                   </div>
 

@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import '../../All_Styles/Checking.css'
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
@@ -15,11 +15,13 @@ library.add(fas);
 
 
 const Checking = () => {
+
+
   return (
     <>
       <div className="Max_width80 mt-4">
 
-
+     
 
       </div>
     </>

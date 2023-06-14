@@ -67,7 +67,7 @@ const BannerSection = (props) => {
 
   return (
     <>
-      <div className="Max_width80 mt-5">
+      <div className="Max_width80 myMT">
         <div className="BannerSection_container">
           <div className="container">
             <div className="Content_container">
@@ -175,8 +175,8 @@ const BannerSection = (props) => {
               </div>
 
               <div className="buttons_container">
-                <button type="button" className="btn btn-primary me-3 px-4 py-3">Call us now</button>
-                <button type="button" className="btn btn-success px-4 py-3">Request a callback</button>
+                <button type="button" className="btn btn-primary me-3 px-5 py-3">Call us now</button>
+                <button type="button" className="btn btn-success px-4 py-3" onClick={function(){console.log('ghj')}}>Request a callback</button>
               </div>
 
             </div>

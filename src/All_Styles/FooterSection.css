@@ -161,6 +161,14 @@
     font-size: 16px;
 }
 
+.maito a{
+    text-decoration: none;
+    color: #ffffffba;
+}
+.Links a{
+    text-decoration: none;
+    color: #ffffffba;
+}
 
 
 /* Media queries start */

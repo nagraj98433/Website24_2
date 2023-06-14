@@ -100,7 +100,7 @@ const Search_Form = () => {
 
   return (
     <>
-      <div className="Max_width80 mt-5">
+      <div className="Max_width80 myMT">
         <div className="search_form_container">
           <div className="search_container">
             <div className="find_caregivers">
@@ -196,7 +196,7 @@ const Search_Form = () => {
             </div>
           </div>
         </div> */}
-            <div className='from_container'>
+            <div className='from_container Vibrate_card' tabIndex='0'>
 
               <form noValidate onSubmit={handleSubmit} className={formValidated ? 'was-validated' : ''}>
                 <div className="form_Heaader_content_container">

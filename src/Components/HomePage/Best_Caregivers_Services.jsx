@@ -1,4 +1,4 @@
-import React, { useState, useEffect }  from "react";
+import React, { useState, useEffect } from "react";
 import '../../All_Styles/Best_Caregivers_Services.css'
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
@@ -65,30 +65,30 @@ const Best_Caregivers_Services = (props) => {
             <div className="col col-sm-6 col-md-6 col-lg-6 col-xl-6 stack_on_xm">
               <div className="Best_caregiver_container">
 
-              {
+                {
                   (data === null) ?
-                  <Backdrop
-                  sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
-                  open
-                >
-                  <CircularProgress color="inherit" />
-                </Backdrop>
+                    <Backdrop
+                      sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
+                      open
+                    >
+                      <CircularProgress color="inherit" />
+                    </Backdrop>
                     :
 
-                    
-                      (data.data.pg_content.pg_name === 'page1' || data.data.pg_content.pg_name === 'page2') ?
-                        <>
-                        <div className="Best_care">{data.data.pg_content.pg_content.pg_center[0].title.title_1 || data.data.pg_content.pg_content.pg_center[0].title} <br /><span className="Best_care_part">{data.data.pg_content.pg_content.pg_center[0].title.title_2 || data.data.pg_content.pg_content.pg_center[0].title}</span></div>
-                <div className="caregiver_description">{data.data.pg_content.pg_content.pg_center[0].content}</div>
-                        </>
-                        :
-                        <>
-                       <div className="Best_care">{data.data.pg_content.pg_content.pg_center[0].title.title_1 || data.data.pg_content.pg_content.pg_center[0].title} <br /><span className="Best_care_part">{data.data.pg_content.pg_content.pg_center[0].title.title_2 || data.data.pg_content.pg_content.pg_center[0].title}</span></div>
-                <div className="caregiver_description">{data.data.pg_content.pg_content.pg_center[0].content}</div>
-                        </>
-                      
 
-                   
+                    (data.data.pg_content.pg_name === 'page1' || data.data.pg_content.pg_name === 'page2') ?
+                      <>
+                        <div className="Best_care">{data.data.pg_content.pg_content.pg_center[0].title.title_1 || data.data.pg_content.pg_content.pg_center[0].title.slice(0,26)} <br /><span className="Best_care_part">{data.data.pg_content.pg_content.pg_center[0].title.title_2 || data.data.pg_content.pg_content.pg_center[0].title.slice(26)}</span></div>
+                        <div className="caregiver_description">{data.data.pg_content.pg_content.pg_center[0].content}</div>
+                      </>
+                      :
+                      <>
+                        <div className="Best_care">{data.data.pg_content.pg_content.pg_center[0].title.title_1 || data.data.pg_content.pg_content.pg_center[0].title} <br /><span className="Best_care_part">{data.data.pg_content.pg_content.pg_center[0].title.title_2 || data.data.pg_content.pg_content.pg_center[0].title}</span></div>
+                        <div className="caregiver_description">{data.data.pg_content.pg_content.pg_center[0].content}</div>
+                      </>
+
+
+
                 }
 
 
@@ -99,30 +99,30 @@ const Best_Caregivers_Services = (props) => {
             <div className="col col-sm-6 col-md-6 col-lg-6 col-xl-6">
 
               <div className="Best_caregiver_img_container">
-              {
+                {
                   (data === null) ?
-                  <Backdrop
-                  sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
-                  open
-                >
-                  <CircularProgress color="inherit" />
-                </Backdrop>
+                    <Backdrop
+                      sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
+                      open
+                    >
+                      <CircularProgress color="inherit" />
+                    </Backdrop>
                     :
 
-                    
-                      (data.data.pg_content.pg_name === 'page1' || data.data.pg_content.pg_name === 'page2' ) ?
-                        <>
-                       <img src={care3} alt="care3_img" />
-                        </>
-                        :
-                        <>
-                       <img src={care_page2} alt="care3_img" />
-                        </>
-                      
 
-                   
+                    (data.data.pg_content.pg_name === 'page1' || data.data.pg_content.pg_name === 'page2') ?
+                      <>
+                        <img src={care3} alt="care3_img" />
+                      </>
+                      :
+                      <>
+                        <img src={care_page2} alt="care3_img" />
+                      </>
+
+
+
                 }
-               
+
               </div>
 
             </div>

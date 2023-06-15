@@ -32,13 +32,39 @@ const Search_Form = () => {
   const [mobile, setMobile] = useState('');
   const [formValidated, setFormValidated] = useState(false);
 
+
+
+
+  // Calling on number API start
+
+  const CallingAPI=()=>{
+
+
+
+}
+
+
+  // Calling on number API end
+
+
+
+
+
+
+
   const handleSubmit = (event) => {
     event.preventDefault();
     const form = event.currentTarget;
+
+    console.log(form.checkValidity())
+
+
     if (form.checkValidity() === false) {
       event.stopPropagation();
     }
     setFormValidated(true);
+
+    // CallingAPI()
 
   };
 
@@ -69,7 +95,7 @@ const Search_Form = () => {
 
 
 
-  // API Calling start
+  // Profile API call start
 
   const [cgsProfile, setCgsProfile] = useState([]);
 
@@ -91,7 +117,7 @@ const Search_Form = () => {
   // })
 
 
-  // API Calling end
+  // Profile API call end
 
 
 
@@ -198,7 +224,7 @@ const Search_Form = () => {
         </div> */}
             <div className='from_container Vibrate_card' tabIndex='0'>
 
-              <form noValidate onSubmit={handleSubmit} className={formValidated ? 'was-validated' : ''}>
+              <form noValidate onSubmit={CallingAPI} className={formValidated ? 'was-validated' : ''}>
                 <div className="form_Heaader_content_container">
                   <div className="Have_a_query">Have a query?</div>
                   <div className="We_are_here">We’re here to help!</div>
@@ -213,7 +239,7 @@ const Search_Form = () => {
                     <div className="invalid-feedback">Please enter a valid 10-digit mobile number</div>
                   </div>
                   <div className="text-center">
-                    <div className="buttons_container mt-4">
+                    <div className="buttons_container mt-5">
                       <button type="submit" className="btn btn-success callus_btn mb-3">Request a callback</button>
                       <button type="submit" className="btn btn-primary callus_btn">Call us now</button>
                     </div>

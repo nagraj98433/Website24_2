@@ -66,7 +66,7 @@ const Frequently_Asked_Q = (props) => {
 
   return (
     <>
-      <div className="Max_width80 mt-4">
+      <div className="Max_width80 MTF">
         <div className="frequently_content mb-5 ps-5">Frequently Asked Questions</div>
 
         <Accordion defaultActiveKey="0">

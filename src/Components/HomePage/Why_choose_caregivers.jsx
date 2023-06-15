@@ -62,7 +62,7 @@ const Why_choose_caregivers = (props) => {
 
   return (
     <>
-      <div className="Max_width80 mt-4">
+      <div className="Max_width80 MTC">
 
 
         {

@@ -5,6 +5,9 @@
 .image_container_second_banner img {
   width: 100%;
 }
+.MTSB{
+  margin-top: 50px;
+}
 
 .overlay_Banner_second {
   position: absolute;
@@ -251,9 +254,9 @@
 
   .Banner_second_heading {
     font-family: Source Serif Pro;
-    font-size: 38px;
+    font-size: 36px;
     font-weight: 400;
-    line-height: 99px;
+    line-height: 45px;
     letter-spacing: 0em;
     text-align: left;
     color: #E6F1F9;
@@ -261,12 +264,13 @@
 
 .Banner_second_description {
   font-family: Source Sans Pro;
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 400;
-  line-height: 50px;
+  line-height: 32px;
   letter-spacing: 0em;
   text-align: left;
   color: #B0D3ED;
+  margin-top: 20px;
 }
 
 .Banner_second_btn_section{
@@ -275,7 +279,9 @@
 
 .Banner_second_btn_section button {
   padding: 7px 40px;
-  font-size: 24px;
+  font-size: 20px;
+  margin-top: 20px;
+
 }
 
 

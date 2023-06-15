@@ -51,7 +51,7 @@ const Main_component = () => {
       <Frequently_Asked_Q Param={userId} />
       <Get_in_touch />
       <FooterSection/>
-      {/* <Checking/> */}
+      <Checking/>
     </>
   )
 }

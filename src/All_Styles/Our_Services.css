@@ -186,6 +186,10 @@
     width: 225px;
 }
 
+.MTS{
+    margin-top: 50px;
+}
+
 
 /* media queries start */
 @media screen and (min-width:300px) and (max-width:480px) {
@@ -1183,6 +1187,7 @@
         /* background-color: #2196F3; */
         padding: 10px;
         justify-content: space-between;
+        margin-top: 20px;
     }
 
     

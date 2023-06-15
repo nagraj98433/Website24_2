@@ -34,7 +34,7 @@ const Clients_have_to_say = () => {
 
   return (
     <>
-      <div className="Max_width80 mt-5">
+      <div className="Max_width80 MTClient">
 
 
 

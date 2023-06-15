@@ -14,7 +14,7 @@ library.add(fas);
 const Get_in_touch = () => {
   return (
     <>
-      <div className="mt-4">
+      <div className="MTG">
         <div className="image_container_get_in_touch">
           <img src={Orange_Banner} alt="orange_bg" />
           <div className="overlay_get_in_touch">

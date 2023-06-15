@@ -14,7 +14,7 @@ library.add(fas);
 const BannerSecond = () => {
   return (
     <>
-      <div className="mt-4 D_none_on_xm1">
+      <div className="MTSB D_none_on_xm1">
         <div className="image_container_second_banner">
           <img src={Blue_Banner} alt="Example Image" />
           <div className="overlay_Banner_second">

@@ -23,7 +23,7 @@ library.add(fas);
 const Our_Services = () => {
   return (
     <>
-      <div className="Max_width80 mt-4">
+      <div className="Max_width80 MTS">
         <div className="">
         <div className="our_services">Our Services</div>
         <div className="services_discription mt-4">At Care24, we provide personalized home care services tailored to meet the unique needs of each client. Our experienced caregivers are carefully selected, screened, and trained to ensure high-quality care. We offer flexible scheduling options and strive to make the process of inviting a caregiver into your home as easy as possible.</div>

@@ -26,7 +26,7 @@
 
 
 .Why_choose_caregivers__content_container2{
-    background-color: #f9f9f9;  
+    background-color: white;  
     border-radius: 25px;
     padding: 70px 285px 70px 50px;
   }
@@ -55,6 +55,10 @@
     background-color: #f9f9f9;
     border-radius: 25px;
     padding: 70px 94px 70px 50px;
+}
+
+.MTC{
+    margin-top: 50px;
 }
 
 

@@ -72,7 +72,7 @@ const How_to_varify_caregiver = (props) => {
 
   return (
     <>
-      <div className="Max_width80 mt-4">
+      <div className="Max_width80">
 
 
 

@@ -23,7 +23,7 @@ library.add(fas);
 const AboutUS = () => {
   return (
     <>
-      <div className="Max_width80 mt-4">
+      <div className="Max_width80 MTA">
 
         <div className="aboutUs_caregiver_container">
           <div className="caregiver_aboutUs_container">

@@ -47,6 +47,9 @@
     border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);
     margin-bottom: 25px;
 }
+.MTF{
+    margin-top: 50px;
+}
 
 
 /* css for 2nd page start */

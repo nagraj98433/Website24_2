@@ -37,12 +37,37 @@ const Search_Form = () => {
 
   // Calling on number API start
 
-  const CallingAPI=()=>{
 
+  const apiUrl = 'https://admin.care24.co.in/leadmanager/api/lead/';
+  
+  const headers = {
+    'Authorization': 'Token 11a839fb7483b8778f14567f9e24c3ebd973af6d',
+    'Cookie': 'csrftoken=EmQhD5qgJZomFzSARRsCoyJv18qWowpQu2JqF9YWEDXw4WtKX9cvZyuUCyAboeVG; sessionid=1czu79h19smorqth4umjd2qx125y6lpv',
+    'Content-Type': 'application/x-www-form-urlencoded',
+  };
+  
+  const formData = new URLSearchParams();
+  formData.append('cust_name', name);
+  formData.append('phone', mobile);
+  formData.append('city', '1');
+  formData.append('service', '3');
+  formData.append('c24service', 'A');
+  formData.append('lead_type', '4');
+  
+  const handleClick = () => {
+    axios.post(apiUrl, formData, { headers })
+      .then(response => {
+        // Handle successful response
+        console.log(response.data);
+      })
+      .catch(error => {
+        // Handle error
+        console.error(error);
+      });
+  };
+  
 
-
-}
-
+  
 
   // Calling on number API end
 
@@ -61,10 +86,14 @@ const Search_Form = () => {
 
     if (form.checkValidity() === false) {
       event.stopPropagation();
+      setFormValidated(true);
     }
-    setFormValidated(true);
-
-    // CallingAPI()
+    else{
+      
+      setFormValidated(true);
+      handleClick()
+    }
+    
 
   };
 
@@ -224,14 +253,14 @@ const Search_Form = () => {
         </div> */}
             <div className='from_container Vibrate_card' tabIndex='0'>
 
-              <form noValidate onSubmit={CallingAPI} className={formValidated ? 'was-validated' : ''}>
+              <form noValidate onSubmit={handleSubmit} className={formValidated ? 'was-validated' : ''}>
                 <div className="form_Heaader_content_container">
                   <div className="Have_a_query">Have a query?</div>
                   <div className="We_are_here">We’re here to help!</div>
                 </div>
                 <div className="form_body">
                   <div className="mb-3">
-                    <input type="text" className="form-control HomePage_Form" id="exampleInputName" placeholder="Enter Your Name" pattern="[A-Za-z]{3,}" required value={name} onChange={(e) => setName(e.target.value)} autoComplete='off' />
+                    <input type="text" className="form-control HomePage_Form" id="exampleInputName" placeholder="Enter Your Name" pattern="[A-Za-z]{3,}" required value={name} onChange={(e) => setName(e.target.value)} autoComplete='off'/>
                     <div className="invalid-feedback">Please enter your name</div>
                   </div>
                   <div className="mb-3">

@@ -13,6 +13,8 @@ import axios from 'axios';
 
 import Backdrop from '@mui/material/Backdrop';
 import CircularProgress from '@mui/material/CircularProgress';
+import { Link, animateScroll as scroll } from "react-scroll";
+
 
 
 
@@ -60,6 +62,16 @@ const BannerSection = (props) => {
   // console.log(data.data.pg_content.pg_content.pg_hdr[0].content)
 
 
+
+  // Scrolling effect start
+
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+
+  };
+
+  
+  // Scrolling effect end
 
 
 
@@ -175,8 +187,11 @@ const BannerSection = (props) => {
               </div>
 
               <div className="buttons_container">
-                <button type="button" className="btn btn-primary me-3 px-5 py-3">Call us now</button>
-                <button type="button" className="btn btn-success px-4 py-3" onClick={function(){console.log('ghj')}}>Request a callback</button>
+                <button type="button" className="btn btn-primary me-3 px-5 py-3" onClick={scrollToTop}>Call us now</button>
+                
+                <Link to={props.id} smooth={true} duration={500}>
+                <button type="button" className="btn btn-success px-4 py-3">Request a callback</button>
+                </Link>
               </div>
 
             </div>

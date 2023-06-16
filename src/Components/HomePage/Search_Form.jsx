@@ -23,9 +23,10 @@ import 'bootstrap/dist/css/bootstrap.css';
 library.add(fas);
 
 
-const Search_Form = () => {
+const Search_Form = (props) => {
 
   // Form validation start
+
   const [index, setIndex] = useState(0);
 
   const [name, setName] = useState('');
@@ -67,14 +68,11 @@ const Search_Form = () => {
   };
   
 
-  
-
   // Calling on number API end
 
 
 
-
-
+  // Form validation start
 
 
   const handleSubmit = (event) => {
@@ -151,8 +149,6 @@ const Search_Form = () => {
 
 
 
-
-
   return (
     <>
       <div className="Max_width80 myMT">
@@ -199,10 +195,6 @@ const Search_Form = () => {
 
 
 
-
-
-
-
               {/* on mobile banner to be shown start */}
               {/* 
               <div className="mt-4 D_none_on_xm">
@@ -226,19 +218,6 @@ const Search_Form = () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
             </div>
 
 
@@ -251,7 +230,7 @@ const Search_Form = () => {
             </div>
           </div>
         </div> */}
-            <div className='from_container Vibrate_card' tabIndex='0'>
+            <div className='from_container Vibrate_card' tabIndex='0' id={props.id}>
 
               <form noValidate onSubmit={handleSubmit} className={formValidated ? 'was-validated' : ''}>
                 <div className="form_Heaader_content_container">

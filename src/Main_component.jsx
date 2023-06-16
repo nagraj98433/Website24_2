@@ -19,6 +19,8 @@ import { useParams } from 'react-router-dom';
 
 const Main_component = () => {
 
+  let Scroll_ID ='Scroll'
+
   let { userId } = useParams();
 
 
@@ -37,9 +39,9 @@ const Main_component = () => {
   return (
     <>
       <TopHeader />
-      <BannerSection Param={userId} />
+      <BannerSection Param={userId} id={Scroll_ID}/>
       {/* <Features/> */}
-      <Search_Form />
+      <Search_Form id={Scroll_ID}/>
       <BannerSecond />
       {/* <Clients_reviews/> */}
       <Clients_have_to_say/>
@@ -51,7 +53,7 @@ const Main_component = () => {
       <Frequently_Asked_Q Param={userId} />
       <Get_in_touch />
       <FooterSection/>
-      <Checking/>
+      {/* <Checking/> */}
     </>
   )
 }

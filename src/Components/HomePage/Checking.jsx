@@ -16,12 +16,25 @@ library.add(fas);
 
 const Checking = () => {
 
+  const [isClicked, setIsClicked] = useState(false);
+
+  const handleClick = () => {
+    setIsClicked(!isClicked);
+  };
+
+
 
   return (
     <>
       <div className="Max_width80 mt-4">
 
-     
+      <div className={`color-box ${isClicked ? 'active' : ''}`} onClick={handleClick}>
+      Click me
+    </div>
+
+    <div>
+      <a href="tel:num">Phone dailar pad</a>
+    </div>
 
       </div>
     </>

@@ -327,6 +327,14 @@ html {
     }
 }
 
+@media screen and (min-width: 300px) and (max-width: 330px){
+.buttons_container button {
+    font-size: 1.2rem;
+}
+}
+
+
+
 
 @media screen and (min-width:577px) and (max-width:768px) {
 
@@ -422,6 +430,20 @@ html {
         color: #021746;
     }
 }
+
+@media screen and (min-width: 577px) and (max-width: 629px){
+    .buttons_container button {
+        font-size: 1.5rem;
+    }
+    }
+
+    @media screen and (min-width: 577px) and (max-width: 586px){
+        .doorstep {
+            font-size: 4.7rem;
+           
+        }
+        }
+    
 
 
 

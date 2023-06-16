@@ -294,6 +294,7 @@
 
     .stack_on_xm{
         flex: none;
+        padding-right: 13px;
     }
 
 }

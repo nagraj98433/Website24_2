@@ -92,6 +92,7 @@
 
 /* media queries start */
 
+
 @media screen and (min-width:300px) and (max-width:576px) {
   
   .overlay_number {
@@ -130,6 +131,17 @@
   display: block;
 }
    
+}
+
+
+@media screen and (min-width:300px) and (max-width:315px) {
+  .overlay_number {
+    top: 12.5vw;
+    left: 74vw;
+    width: 20%;
+    height: 0;
+    font-size: 5.3vw;
+}
 }
 
 @media screen and (min-width:370px) and (max-width:576px) {

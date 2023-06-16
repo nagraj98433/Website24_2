@@ -19,11 +19,13 @@ import { useParams } from 'react-router-dom';
 
 const Main_component = () => {
 
+  // scrolling id start and passing in comp
+
   let Scroll_ID ='Scroll'
 
+  // scrolling id end
+
   let { userId } = useParams();
-
-
 
   if (userId === undefined) {
     userId="page1"

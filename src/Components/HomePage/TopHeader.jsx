@@ -39,9 +39,10 @@ const TopHeader = () => {
           <div className="overlay_number">
 
             <span className="me-2"><FontAwesomeIcon icon="fa-solid fa-phone-volume" /></span>
-            <span className="Top_header_number">Call Us - 08069048806</span>
+            <a href="tel:08069048806" className="dialar_pad"><span className="Top_header_number">Call Us - 08069048806</span></a>
           </div>
           {/* This is for number end */}
+
 
         </div>
       </div>

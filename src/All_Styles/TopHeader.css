@@ -79,6 +79,13 @@
   .numberImg_mobile{
     display: none;
   }
+  .dialar_pad{
+    text-decoration: none;
+    color: #0C2F62;
+  }
+  .dialar_pad:hover{
+    color: #0C2F62;
+  }
 /* This is for number start */
 
 

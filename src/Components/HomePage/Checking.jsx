@@ -33,7 +33,7 @@ const Checking = () => {
     </div>
 
     <div>
-      <a href="tel:num">Phone dailar pad</a>
+      <a href="tel:08069048806">Phone dailar pad</a>
     </div>
 
       </div>

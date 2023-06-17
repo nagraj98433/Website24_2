@@ -789,6 +789,37 @@
 
 }
 
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+
+  .callus_btn{
+    font-size: 18px !important;
+  }
+
+  .from_container {
+    max-width: 340px;
+}
+
+.caregivers_filters_container {
+  border-radius: 48px;
+  border: 1px solid #0d6efd;
+  width: 96%;
+  padding: 7px;
+}
+
+.Best_Arthritis {
+  font-family: Source Serif Pro;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0C2F62;
+  margin: 49px 0 12px 0;
+}
+
+
+}
+
 @media screen and (min-width: 1400px) and (max-width: 1600px) {
   .callus_btn{
     font-size: 2.2rem !important;

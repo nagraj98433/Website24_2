@@ -727,6 +727,7 @@ html {
         color: #1B5741;
         padding: 0.5rem 0;
         font-size: 2.6rem;
+        margin-top: 31px;
     }
 
     .Quality {
@@ -752,35 +753,33 @@ html {
     
     .get_reliable {
         font-family: Source Serif Pro;
-        font-size: 6rem;
+        font-size: 48px;
         font-weight: 400;
         line-height: 6.0rem;
         letter-spacing: 0em;
         text-align: left;
         color: #021746;
-        margin-top: 45px;
+        margin-top: 30px;
     }
 
     .doorstep {
         font-family: Source Serif Pro;
-        font-size: 6rem;
+        font-size: 48px;
         font-style: italic;
         font-weight: 400;
-        line-height: 7.6rem;
+        line-height: 56px;
         letter-spacing: 0em;
         text-align: left;
         color: #021746;
     }
 
     .buttons_container button {
-        font-size: 3rem;
+        font-size: 24px;
     }
 
     .buttons_container{
-        margin-top: 45px;
+        margin-top: 35px;
     }
-
-
 
     html {
         font-size: 50%;
@@ -788,6 +787,7 @@ html {
     .container{
         max-width: 100%;
     }
+   
 }
 
 

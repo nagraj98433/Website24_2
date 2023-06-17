@@ -7,6 +7,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Orange_Banner from '../../assets/Images/Orange_Banner.png'
 import doctors_img4 from '../../assets/Images/doctors_img4.png'
 import { Link, animateScroll as scroll } from "react-scroll";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 
 // Add the desired icons to the library
@@ -19,11 +22,18 @@ const Get_in_touch = () => {
 
  const scrollToTop = () => {
   scroll.scrollToTop();
+  PhoneCall()
 
 };
 
-
 // Scrolling effect end
+
+// Toast start
+const PhoneCall = () => {
+  toast.info('CLICK ON PHONE/ICON ABOVE'); // Display a success toast
+};
+// Toast end
+
 
 
 

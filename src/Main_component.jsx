@@ -36,7 +36,7 @@ const Main_component = () => {
     userId 
   }
 
-  console.log(userId)
+  // console.log(userId)
 
   return (
     <>

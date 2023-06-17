@@ -8,6 +8,9 @@ import Blue_Banner from '../../assets/Images/Blue_Banner.png'
 import doctor_img3 from '../../assets/Images/doctor_img3.png'
 import { Link, animateScroll as scroll } from "react-scroll";
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 // Add the desired icons to the library
 library.add(fas);
@@ -20,17 +23,27 @@ const BannerSecond = () => {
 
   const scrollToTop = () => {
     scroll.scrollToTop();
+    PhoneCall()
 
   };
 
   
   // Scrolling effect end
 
+  // Toas start
+  const PhoneCall = () => {
+    toast.info('CLICK ON PHONE/ICON ABOVE'); // Display a success toast
+  };
+
+  // Toas end
+
+
 
 
 
   return (
     <>
+
       <div className="MTSB D_none_on_xm1">
         <div className="image_container_second_banner">
           <img src={Blue_Banner} alt="Example Image" />

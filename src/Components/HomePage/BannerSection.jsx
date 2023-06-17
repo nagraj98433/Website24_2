@@ -16,6 +16,9 @@ import CircularProgress from '@mui/material/CircularProgress';
 import { Link, animateScroll as scroll } from "react-scroll";
 import { Modal } from 'react-bootstrap';
 import Form from "./Form";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 
 
@@ -76,6 +79,7 @@ const BannerSection = (props) => {
 
   const scrollToTop = () => {
     scroll.scrollToTop();
+    PhoneCall()
 
   };
 
@@ -83,11 +87,27 @@ const BannerSection = (props) => {
   // Scrolling effect end
 
 
+  // toast start
+
+  const PhoneCall = () => {
+    toast.info('CLICK ON PHONE/ICON ABOVE'); // Display a success toast
+  };
+  const FormFill = () => {
+    toast.info('FILL THE FORM'); // Display a success toast
+  };
+
+  // toast end
+
+
+
 
 
 
   return (
     <>
+
+<ToastContainer />
+
       <div className="Max_width80 myMT">
         <div className="BannerSection_container">
           <div className="container">
@@ -199,7 +219,7 @@ const BannerSection = (props) => {
                 <button type="button" className="btn btn-primary me-3 px-5 py-3" onClick={scrollToTop}>Call us now</button>
                 
                 <Link to={props.id} smooth={true} duration={500} className="Desktop_ON">
-                <button type="button" className="btn btn-success px-4 py-3">Request a callback</button>
+                <button type="button" className="btn btn-success px-4 py-3" onClick={FormFill}>Request a callback</button>
                 </Link>
                 <button type="button" className="btn btn-success px-4 py-3 MobileON" onClick={() => setShowModal(true)}>Request a callback</button>
 

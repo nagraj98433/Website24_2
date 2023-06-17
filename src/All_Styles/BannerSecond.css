@@ -60,6 +60,11 @@
   font-size: 20px;
   }
 
+  .Toastify__toast-container--top-right {
+    top: 8em;
+    right: 6em;
+}
+
 
 /* Media queries Start */
 

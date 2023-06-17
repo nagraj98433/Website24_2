@@ -24,6 +24,10 @@
   .Header_bg{
     max-width: 100%;
   }
+  .phone_icon span{
+    text-decoration: none;
+    color: #0C2F62;
+  }
 
 /* This is for number img start */
 

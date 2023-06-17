@@ -11,6 +11,7 @@ import care1_overlay from '../../assets/Images/care1_overlay.png'
 import BannerSection_img from '../../assets/Images/BannerSection_img.png'
 import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
 import { Modal } from 'react-bootstrap';
+import Form from "./Form";
 
 
 // Add the desired icons to the library
@@ -36,7 +37,7 @@ const Checking = () => {
             <Modal.Title>Modal Title</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <p>Modal content goes here...</p>
+            <Form/>
           </Modal.Body>
           <Modal.Footer>
             <button onClick={() => setShowModal(false)}>Close</button>

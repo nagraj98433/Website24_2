@@ -181,7 +181,22 @@ html {
 }
 
 
+
 /* Media queries start */
+
+@media screen and (min-width:300px) and (max-width:705px) {
+  
+    .Desktop_ON{
+        display: none;
+    }
+}
+
+@media screen and (min-width:705px) and (max-width:1920px) {
+  
+    .MobileON{
+        display: none;
+    }
+}
 
 
 @media screen and (min-width:300px) and (max-width:576px) {

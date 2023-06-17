@@ -14,6 +14,10 @@ import axios from 'axios';
 import Backdrop from '@mui/material/Backdrop';
 import CircularProgress from '@mui/material/CircularProgress';
 import { Link, animateScroll as scroll } from "react-scroll";
+import { Modal } from 'react-bootstrap';
+import Form from "./Form";
+
+
 
 
 
@@ -24,6 +28,11 @@ library.add(fas);
 
 const BannerSection = (props) => {
   
+  // Modal 
+
+  const [showModal, setShowModal] = useState(false);
+
+  // Modal
 
 
 
@@ -189,9 +198,11 @@ const BannerSection = (props) => {
               <div className="buttons_container">
                 <button type="button" className="btn btn-primary me-3 px-5 py-3" onClick={scrollToTop}>Call us now</button>
                 
-                <Link to={props.id} smooth={true} duration={500}>
+                <Link to={props.id} smooth={true} duration={500} className="Desktop_ON">
                 <button type="button" className="btn btn-success px-4 py-3">Request a callback</button>
                 </Link>
+                <button type="button" className="btn btn-success px-4 py-3 MobileON" onClick={() => setShowModal(true)}>Request a callback</button>
+
               </div>
 
             </div>
@@ -240,6 +251,24 @@ const BannerSection = (props) => {
             </div>
           </div>
         </div>
+
+
+        {/* Modal start */}
+
+        <Modal show={showModal} onHide={() => setShowModal(false)}>
+          <Modal.Header closeButton>
+            <Modal.Title></Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <Form/>
+          </Modal.Body>
+          <Modal.Footer>
+            {/* <button onClick={() => setShowModal(false)}>Close</button> */}
+          </Modal.Footer>
+        </Modal>
+
+
+
       </div>
     </>
   )
